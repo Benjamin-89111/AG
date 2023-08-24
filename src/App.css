@@ -32,7 +32,105 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@media only screen and (max-width: 992px) {
+  .menu-options {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+  }
+}
+
+.row {
+  --bs-gutter-x: none !important;
+  --bs-gutter-y: none !important;
+}
+
+.services {
+  background: rgba(0, 0, 0, .5) !important;
+  margin: 0 20px !important;
+  padding: 15px !important;
+  backdrop-filter: blur(20px) !important;
+  color: #fff !important;
+}
+
+.benifits-container {
+  padding: 30px !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(150deg, #005389 0%, #009CD7 100%) !important;
+  border-radius: 10px 10px 10px 10px !important;
+  cursor: default !important;
+}
+
+.home_heroform {
+  padding: 40px 20px !important;
+  border-radius: 10px !important;
+  background: rgba(0, 0, 0, .6) !important;
+}
+
+p {
+  font-size: 18px !important;
+}
+
+.service-bg {
+  /* background: linear-gradient(150deg, #005389 0%, #258B41 100%) !important; */
+  background-color: line;
+  background: lightgrey;
+}
+
+.buttons-ag {
+  fill: #fff;
+  color: #fff;
+  background-color: transparent;
+  background-image: linear-gradient(150deg, #258B41 0%, #5FBE4C 100%);
+}
+
+.contact-btn {
+  background: #005389 !important;
+}
+
+/*  */
+/* SocialMediaIcons.css */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.icon-link:hover {
+  transform: scale(1.2);
+  /* Apply hover animation */
+}
+
+/*  */
+@media only screen and (max-width: 767px) {
+  .slick-prev {
+    display: none !important;
+  }
+
+  .slick-next {
+    display: none !important;
+  }
+}
+
+/*  */
+#basic-nav-dropdown {
+  color: rgb(33, 37, 41) !important;
 }
