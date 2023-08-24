@@ -6,7 +6,7 @@ function Router(){
         <>
         <BrowserRouter>
         <Switch>
-            <Route path="/">
+            <Route path="/Home">
                 <Home/>
             </Route>
         </Switch>
