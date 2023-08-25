@@ -21,10 +21,10 @@ const Header = () => {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ms-lg-5  justify-content-lg-center">
-            <Nav.Link className='fw-bold menu-opt text-white ms-lg-5 ' >
-              <Link to="/">
+            <Nav.Link className='fw-bold menu-opt text-white  ' >
+              {/* <Link to="/">
                 <span className='text-white'>Home</span>
-              </Link>
+              </Link> */}
             </Nav.Link>
             <Nav.Link className='fw-bold menu-opt text-white'>
               <Link to="/about">
@@ -49,7 +49,7 @@ const Header = () => {
             </NavDropdown>
           </Nav>
 
-          <Button as={Link} to="/Enquire" size='md' style={{ background: "#ff8000" }} href="#about" className="border-0">
+          <Button as={Link} to="/Enquire" size='md' style={{ background: "#ff8000" }} href="#about" className="border-0 mb-3 mb-lg-0">
             Enquire Now
           </Button>
         </Navbar.Collapse>
