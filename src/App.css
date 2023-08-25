@@ -80,7 +80,9 @@ p {
 .service-bg {
   /* background: linear-gradient(150deg, #005389 0%, #258B41 100%) !important; */
   background-color: line;
-  background: lightgrey;
+  /* background-image: linear-gradient(to bottom right, #FF512F, #DD2476); */
+
+  background: linear-gradient(90deg, #3b3b3b, #373737, #333333, #303030, #2c2c2c, #282828, #252525, #212121);
 }
 
 .buttons-ag {
@@ -132,5 +134,17 @@ p {
 
 /*  */
 #basic-nav-dropdown {
-  color: rgb(33, 37, 41) !important;
+  color: #fff !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar {
+  --bs-navbar-padding-x: 0 !important;
+  --bs-navbar-padding-y: 0 !important;
+}
+a{
+  text-decoration: none !important;
 }

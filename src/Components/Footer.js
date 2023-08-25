@@ -1,11 +1,11 @@
-import logo from './Agfs.png'
+import logo from './FinalLogo.png'
 import { Icon } from '@iconify/react'
 
 function Footer() {
     return (
         <>
             {/* <!-- Remove the container if you want to extend the Footer to full width. --> */}
-            <div style={{background:'lightgrey'}}>
+            <div className='service-bg'>
                 {/* <!-- Footer --> */}
                 <footer
                     class="text-center text-lg-start text-dark"
@@ -19,11 +19,9 @@ function Footer() {
                             <div class="row">
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                                    <img src={logo} width="80px" />
-                                    <p>
-                                        Here you can use rows and columns to organize your footer
-                                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                                        elit.
+                                    <img src={logo} width="170px" className='mb-3'/>
+                                    <p className='text-white'>
+                                    We are a medium-sized company providing Facilities Management and Building Services in Chennai. We put our people first, resulting in a hardworking and skilled team who are committed to getting the job done right...
                                     </p>
                                 </div>
                                 {/* <!-- Grid column --> */}
@@ -32,24 +30,24 @@ function Footer() {
 
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                    <h5 class="text-uppercase mb-4 font-weight-bold">SERVICES</h5>
+                                    <h5 class="text-uppercase mb-4 font-weight-bold text-white ">SERVICES</h5>
                                     <p>
-                                        <a >Commercial Cleaning</a>
+                                        <a className="text-white">Commercial Cleaning</a>
                                     </p>
                                     <p>
-                                        <a >Building Maintenance</a>
+                                        <a className="text-white">Building Maintenance</a>
                                     </p>
                                     <p>
-                                        <a >Man-Power</a>
+                                        <a className="text-white">Man-Power</a>
                                     </p>
                                     <p>
-                                        <a >Facility Management</a>
+                                        <a className="text-white">Facility Management</a>
                                     </p>
                                     <p>
-                                        <a >Maintenance</a>
+                                        <a className="text-white">Maintenance</a>
                                     </p>
                                     <p>
-                                        <a >Cleaning</a>
+                                        <a className="text-white">Cleaning</a>
                                     </p>
                                 </div>
                                 {/* <!-- Grid column --> */}
@@ -58,23 +56,23 @@ function Footer() {
 
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                                    <h5 class="text-uppercase mb-4 font-weight-bold">
+                                    <h5 class="text-uppercase mb-4 font-weight-bold text-white ">
                                         Properties
                                     </h5>
                                     <p>
-                                        <a >Property Management</a>
+                                        <a className="text-white">Property Management</a>
                                     </p>
                                     <p>
-                                        <a >Warm Shell Spaces</a>
+                                        <a className="text-white">Warm Shell Spaces</a>
                                     </p>
                                     <p>
-                                        <a >Office Spaces</a>
+                                        <a className="text-white">Office Spaces</a>
                                     </p>
                                     <p>
-                                        <a >Large Office Spaces</a>
+                                        <a className="text-white">Large Office Spaces</a>
                                     </p>
                                     <p>
-                                        <a >Event Spaces</a>
+                                        <a className="text-white">Event Spaces</a>
                                     </p>
                                 </div>
 
@@ -82,8 +80,8 @@ function Footer() {
                                 <hr class="w-100 clearfix d-md-none" />
 
                                 {/* <!-- Grid column --> */}
-                                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                                    <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
+                                <div class="col-md-4 text-white col-lg-3 col-xl-3 mx-auto mt-3">
+                                    <h5 class="text-uppercase mb-4 font-weight-bold text-white ">Contact Us</h5>
                                     <p><span style={{ textDecoration: 'underline' }}>Location </span> {' '}: <i class="fas fa-home mr-3"></i>India , Singapore , Malaysia</p>
                                     <p><i class="fas fa-envelope mr-3"></i> info@agpropertyfacility.com</p>
                                     <p><i class="fas fa-phone mr-3"></i> +91 9840389051</p>
@@ -102,7 +100,7 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-7 col-lg-8 text-center text-md-start">
                                     {/* <!-- Copyright --> */}
-                                    <div class="p-3">
+                                    <div class="p-3 text-white">
                                         © 2023 Copyright <span className='fw-semibold'>AG Property & Facility</span>
                                     </div>
                                     {/* <!-- Copyright --> */}
@@ -112,20 +110,20 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                                     <div className="social-icons">
-                                        <div className='fw-bold'>
+                                        <div className='fw-bold text-white'>
                                             Follow Us On 
                                         </div>{' '}:
                                         <a href="#" className="icon-link" title="Facebook">
-                                            <Icon icon="la:facebook-square" color="black" width="34" height="34" />
+                                            <Icon icon="la:facebook-square" color="white" width="34" height="34" />
                                         </a>
                                         <a href="#" className="icon-link" title="Twitter">
-                                            <Icon icon="ri:twitter-x-line" color="black" width="28" height="28" />
+                                            <Icon icon="ri:twitter-x-line" color="white" width="28" height="28" />
                                         </a>
                                         <a href="#" className="icon-link" title="Youtube">
-                                            <Icon icon="ant-design:youtube-outlined" color="black" width="28" height="28" />
+                                            <Icon icon="ant-design:youtube-outlined" color="white" width="28" height="28" />
                                         </a>
                                         <a href="#" className="icon-link" title="Instagram">
-                                            <Icon icon="mdi:instagram" color="black" width="28" height="28" />
+                                            <Icon icon="mdi:instagram" color="white" width="28" height="28" />
                                         </a>
                                     </div>
                                 </div>

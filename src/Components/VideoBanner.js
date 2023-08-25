@@ -60,7 +60,9 @@ const VideoBanner = () => {
           <Col lg={7} md={12}>
             <div className='p-2 mt-lg-5' style={textStyles}>
               <h2 style={h1Styles}>AG Property and Facility Management. </h2>
-              <p style={pStyles}>Welcome to Crystal Facilities Management, we are on a mission to make a positive impact. Trust us for tailor-made solutions for Cleaning, Security, and Maintenance.</p>
+              <p style={pStyles}>
+                Welcome to AG Property and Facility Management. Our mission is to make a positive impact on the world. Trust us for tailor-made solutions for Cleaning, Security, and Maintenance.
+              </p>
               {/* <Button size='lg' className='buttons-ag border-0'>Get Quote</Button> */}
             </div>
           </Col>
@@ -74,15 +76,15 @@ const VideoBanner = () => {
                     <Form.Label className='text-white'>Name</Form.Label>
                     <Form.Control type="text" placeholder="Enter your name" />
                   </Form.Group>
-                  <Form.Group controlId="phone">
+                  <Form.Group controlId="phone" className='mb-3'>
                     <Form.Label className='text-white'>Phone</Form.Label>
                     <Form.Control type="text" placeholder="Enter your phone number" />
                   </Form.Group>
-                  <Form.Group controlId="email">
+                  <Form.Group controlId="email" className='mb-3'>
                     <Form.Label className='text-white'>Email</Form.Label>
                     <Form.Control type="email" placeholder="Enter your email" />
                   </Form.Group>
-                  <Form.Group controlId="message">
+                  <Form.Group controlId="message" className='mb-3'>
                     <Form.Label className='text-white'>Message</Form.Label>
                     <Form.Control as="textarea" rows={3} placeholder="Enter your message" />
                   </Form.Group>
