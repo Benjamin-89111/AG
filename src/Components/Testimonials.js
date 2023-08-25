@@ -68,14 +68,14 @@ const Testimonials = () => {
             id: 3,
             name: "Ann Willder",
             university: "Accomodations Manager , Liverpool University",
-            description:"Throughout our first project with Crystal Facilities Management, we found the team to be reliable and efficient.",
+            description:"Throughout our first project with AG Property & Facility Management, we found the team to be reliable and efficient.",
             image: "https://images.pexels.com/photos/3501159/pexels-photo-3501159.jpeg?auto=compress&cs=tinysrgb&w=600"
         },
         {
             id: 4,
             name: "Jhon Lees",
             university: "Accomodations Manager , Liverpool University",
-            description:"Throughout our first project with Crystal Facilities Management, we found the team to be reliable and efficient.",
+            description:"Throughout our first project with AG Property & Facility Management, we found the team to be reliable and efficient.",
             image: "https://images.pexels.com/photos/3501159/pexels-photo-3501159.jpeg?auto=compress&cs=tinysrgb&w=600"
         },
         {
@@ -90,7 +90,7 @@ const Testimonials = () => {
 
     return (
         <>
-            <div style={sectionStyles}>
+            <div className='pg-1'>
                 <Container>
                     <Row>
                         <Col>
@@ -107,7 +107,7 @@ const Testimonials = () => {
                                                     {products.description}
                                                 </p>
                                                 <p style={{fontStyle:'italic'}} className='text-white text-center'>{products.name}</p>
-                                                <p style={{fontStyle:'italic',color:'#3e7f3f'}} className='fw-bold text-center'>{products.university}</p>
+                                                <p style={{fontStyle:'italic'}} className='fw-bold text-white text-center'>{products.university}</p>
                                             </div>
                                         </div>
                                     </div>

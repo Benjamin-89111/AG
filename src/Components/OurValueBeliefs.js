@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 function OurValueBeliefs() {
     return (
         <>
-            <div className="mt-3 p-5">
+            <div className="mt-3 text-white p-5">
                 <h2 className="text-center">OUR VALUE AND BELIEFS</h2>
                 <p className="text-center">We believe that when we look after people, we look after businesses</p>
                 <Row>

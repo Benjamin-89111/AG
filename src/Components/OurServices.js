@@ -56,14 +56,14 @@ function OurServices() {
     return (
         <>
             <Row>
-                <Col lg={12} className="service-bg p-5">
+                <Col lg={12} className=" p-5">
                     <Container>
                         <Row>
                             <h2 className="text-center text-white">Our Services</h2>
                             <h4 className="text-center text-white mb-3">We Cover Everything</h4>
                             {currentProducts.map((product) => (
                                 <Col md={4} lg={3} key={product.id}>
-                                    <Card style={{ height:"380px", borderRadius: '0px' }} className="services m-2">
+                                    <Card style={{ height:"400px", borderRadius: '0px' }} className="services m-2">
                                         <div className="card-body">
                                             <h4 className="text-center text-white mb-3">{product.name}</h4>
                                             <p className="text-center text-white">{product.description}</p>

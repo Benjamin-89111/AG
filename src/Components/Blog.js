@@ -78,12 +78,12 @@ const Blog = () => {
 
     return (
         <>
-            <div>
+            <div className='pg-1'>
                 <Container>
                     <Row className='p-5'>
                         <Col>
                             <h3 style={{ color: '#258B41' }} className='text-center text-uppercase mt-3'>Blogs</h3>
-                            <h2 className='text-center text-capitalize mb-3'>Latest From Us</h2>
+                            <h2 className='text-center text-white text-capitalize mb-3'>Latest From Us</h2>
                             <Slider {...carouselSettings}>
                                 {products.map(products => (
                                     <div key={products.id} className="image-container">
@@ -92,7 +92,7 @@ const Blog = () => {
                                             <div class="card-body">
                                                 <h5 class="card-title">{products.name}</h5>
                                                 <p class="mb-1 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                                <span role='button' style={{fontSize:'14px'}} className='text-success fw-bold text-uppercase'>Read More</span>
+                                                {/* <span role='button' style={{fontSize:'14px'}} className='text-success fw-bold text-uppercase'>Read More</span> */}
                                             </div>
                                         </div>
                                     </div>

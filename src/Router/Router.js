@@ -27,46 +27,46 @@ function Router() {
                     <Route path="/about">
                         <About />
                     </Route>
-                    <Route path="/productlist">
+                    {/* <Route path="/productlist">
                         <ProductList />
                     </Route>
                     <Route path="/product/:id">
                         <ProductDetail />
-                    </Route>
-                    <Route path="/cc">
+                    </Route> */}
+                    <Route path="/Commercial-Cleaning">
                         <CommercialCleaning />
                     </Route>
-                    <Route path="/bm">
+                    <Route path="/Building-Maintainence">
                         <BuildingMaintainence />
                     </Route>
-                    <Route path="/mp">
+                    <Route path="/Man-Power">
                         <ManPower />
                     </Route>
-                    <Route path="/fm">
+                    <Route path="/Facility-Management">
                         <FacilityManagement />
                     </Route>
-                    <Route path="/m">
+                    <Route path="/Maintainence">
                         <Maintainence />
                     </Route>
-                    <Route path="/c">
+                    <Route path="/Cleaning">
                         <Cleaning />
                     </Route>
-                    <Route path="/pm">
+                    <Route path="/Property-Management">
                         <PropertyManagement />
                     </Route>
-                    <Route path="/wss">
+                    <Route path="/Warm-Shell-Spaces">
                         <WarmShellSpaces />
                     </Route>
-                    <Route path="/os">
+                    <Route path="/Office-Spaces">
                         <OfficeSpaces />
                     </Route>
-                    <Route path="/los">
+                    <Route path="/Large-Office-Spaces">
                         <LargeOfficeSpaces />
                     </Route>
-                    <Route path="/es">
+                    <Route path="/Event-Spaces">
                         <EventSpaces />
                     </Route>
-                    <Route path="/en">
+                    <Route path="/Enquire">
                         <EnquireNow />
                     </Route>
                 </Switch>

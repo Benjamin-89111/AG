@@ -22,27 +22,27 @@ function Home() {
                 <Col lg={12} className="">
                     <VideoBanner />
                 </Col>
-                <Col lg={12} className="p-5">
+                <Col lg={12} className="p-5 text-white pg-1">
                     <ComprehensiveManagements />
                 </Col>
-                <Col lg={12}>
+                <Col lg={12} className="pg-1">
                     <OurServices />
                 </Col>
-                <Col lg={12}>
+                <Col lg={12} className="pg-1">
                     <WideCoverage />
                 </Col>
                 <Col lg={12}>
                     <OurProperties />
                 </Col>
-                <Col lg={12}>
+                <Col lg={12} className="pg-1">
                     <OurValueBeliefs />
                 </Col>
-                <Col lg={12}>
+                <Col lg={12} className="pg-1">
                     <WhyChooseus />
                 </Col>
-                <Col lg={12}>
+                {/* <Col lg={12}>
                     <Certificate />
-                </Col>
+                </Col> */}
                 <Col lg={12}>
                     <Testimonials />
                 </Col>

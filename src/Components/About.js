@@ -12,6 +12,7 @@ function About() {
                 <Col lg={12}>
                     <div className="container p-5">
                         <Row>
+                            <h1 className="text-center mb-3">About Us</h1>
                             <Col lg={6}>
                                 <img style={{ objectFit: "cover" }} src="https://imgs.search.brave.com/WXzC8dEh77Nj3tXNVBQH3m48sbe1BDeBSoWtH8MaRG4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/NDEyNTg3Ni9waG90/by9idXNpbmVzcy1t/ZWV0aW5nLXN0b2Nr/LXBob3RvLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1qR2k3/dElLR21UTzRtdVY4/SnAtRHBiODgwLWRh/OG1oQ2tKcFVnYkpa/cG44PQ" className="w-100 h-100 p-3" />
                             </Col>

@@ -17,14 +17,14 @@ function WideCoverage() {
 
     return (
         <>
-            <div style={sectionStyles}>
+            <div>
                 <Container>
-                    <Row className="p-4">
+                    <Row className="p-4 text-white">
                         <Col lg={6} className="p-2">
                             <h2 className="mb-4">Why Why Choose Us ?</h2>
-                            <img className="rounded" src={wideservice} width="100%" />
+                            <img className="rounded" src="https://media.istockphoto.com/id/1418278677/photo/school-janitors-in-the-classroom.jpg?s=612x612&w=0&k=20&c=md9mjFrDEQKK1iSZLtRE7rHG9ZjGMarJ3pxjd7bcm1w=" width="100%" />
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} className="text-white">
                             <p className="ms-3 mt-3" >
                                 AG Property & Facilities Management understands the difficulties of maintaining a building operational. We take pride in having the expertise, knowledge, and commitment to provide you with the services you demand.
                             </p>
@@ -37,7 +37,7 @@ function WideCoverage() {
                                 <li><Icon icon="mdi:tick" color="#5FBE4C" className="me-2" width="28" height="28" />Our team will focus on providing the best service possible and enhancing your Facilities Management package from day one.</li>
                             </ul>
                             <p className="ms-3">We would love to hear from you on how we can help you improve quality, consistency and save costs</p>
-                            <Button size="lg" className="contact-btn border-0 ms-3">Get to Know More</Button>
+                            {/* <Button size="lg" className="contact-btn border-0 ms-3">Get to Know More</Button> */}
                         </Col>
                     </Row>
                 </Container>

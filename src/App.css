@@ -148,3 +148,9 @@ body {
 a{
   text-decoration: none !important;
 }
+
+.pg-1,body{
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  color: #fff !important;
+
+}
