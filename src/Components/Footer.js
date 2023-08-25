@@ -119,7 +119,7 @@ function Footer() {
                         </section>
                         {/* <!-- Section: Links --> */}
 
-                        <hr class="my-3" />
+                        <hr class="my-2 text-white" />
 
                         {/* <!-- Section: Copyright --> */}
                         <section class="p-3 pt-0">

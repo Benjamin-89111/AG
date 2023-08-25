@@ -1,7 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import Header from "./Header"
-import bm1 from './bm.jpg'
-import bm from './bm1.jpg'
+import Footer from "./Footer"
 function Maintainence() {
     return (
         <>
@@ -9,7 +8,7 @@ function Maintainence() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5">
+                <Col lg={12} className="section-2 text-white p-5">
                     <Container>
                         <Row>
                             <h1 className="text-center mb-3">Maintainence</h1>
@@ -44,6 +43,9 @@ function Maintainence() {
                             </Col>
                         </Row>
                     </Container>
+                </Col>
+                <Col lg={12}>
+                    <Footer/>
                 </Col>
             </Row>
         </>

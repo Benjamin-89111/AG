@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import Header from "./Header"
 import bm1 from './bm.jpg'
 import bm from './bm1.jpg'
+import Footer from "./Footer"
 function Cleaning() {
     return (
         <>
@@ -9,7 +10,7 @@ function Cleaning() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5">
+                <Col lg={12} className="p-5 section-2 text-white">
                     <Container>
                         <Row>
                             <h1 className="text-center mb-3">Cleaning</h1>
@@ -46,6 +47,9 @@ function Cleaning() {
                             </Col>
                         </Row>
                     </Container>
+                </Col>
+                <Col lg={12}>
+                    <Footer/>
                 </Col>
             </Row>
         </>

@@ -10,8 +10,8 @@ function About() {
                     <Header />
                 </Col>
                 <Col lg={12}>
-                    <div className="container p-5">
-                        <Row>
+                    <div className="section-2 text-white  p-5">
+                        <Row className="container">
                             <h1 className="text-center mb-3">About Us</h1>
                             <Col lg={6}>
                                 <img style={{ objectFit: "cover" }} src="https://imgs.search.brave.com/WXzC8dEh77Nj3tXNVBQH3m48sbe1BDeBSoWtH8MaRG4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/NDEyNTg3Ni9waG90/by9idXNpbmVzcy1t/ZWV0aW5nLXN0b2Nr/LXBob3RvLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1qR2k3/dElLR21UTzRtdVY4/SnAtRHBiODgwLWRh/OG1oQ2tKcFVnYkpa/cG44PQ" className="w-100 h-100 p-3" />
@@ -30,8 +30,8 @@ function About() {
                             </Col>
                         </Row>
                     </div>
-                    <div className="container p-5">
-                        <Row>
+                    <div className="section-1 text-white p-5">
+                        <Row className="container">
                             <Col lg={6} className="order-lg-2">
                                 <img style={{ objectFit: "cover" }} src="https://imgs.search.brave.com/BTkJMw_X76FzQ7JDp5VkaQtd1JziEkTj0XyriQEq_Wk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTAw/NDc4OTA0L3Bob3Rv/L2VtcHR5LW9mZmlj/ZS1zcGFjZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9WEho/dzJGWlpMalB5ODY4/Sk84N3pEcGNSa2NH/NEFYT3FDdm5na3JP/VTVLQT0" className="w-100 h-100 p-3" />
                             </Col>
@@ -42,8 +42,8 @@ function About() {
                             </Col>
                         </Row>
                     </div>
-                    <div className="container p-5">
-                        <Row>
+                    <div className="section-2 text-white p-5">
+                    <Row className="container">
                             <Col lg={6}>
                                 <img style={{ objectFit: "cover" }} src="https://imgs.search.brave.com/HbB87Fls9gLcWLyUSUB7JPReRkSs32T9wDTS3PXPo6k/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9saW1i/bGVjbW1zLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvQmVzdC1G/YWNpbGl0eS1NYWlu/dGVuYW5jZS1DZXJ0/aWZpY2F0aW9uLTIw/MjEuanBn" className="w-100 h-100 p-3" />
                             </Col>

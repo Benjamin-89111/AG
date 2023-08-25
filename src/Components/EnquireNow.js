@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Form, Button, Col, Row } from 'react-bootstrap';
-import banner from './Bg_video.mp4'
+import banner from './contact.mp4'
 import Footer from './Footer';
 import Header from './Header';
 const EnquireNow = () => {

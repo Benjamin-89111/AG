@@ -82,12 +82,12 @@ const Blog = () => {
                 <Container>
                     <Row className='p-5'>
                         <Col>
-                            <h3 style={{ color: '#258B41' }} className='text-center text-uppercase mt-3'>Blogs</h3>
+                            <h3 style={{ color: '' }} className='text-center text-white text-uppercase mt-3'>Blogs</h3>
                             <h2 className='text-center text-white text-capitalize mb-3'>Latest From Us</h2>
                             <Slider {...carouselSettings}>
                                 {products.map(products => (
                                     <div key={products.id} className="image-container">
-                                        <div style={{ height: '380px', }} class="card m-2 overflow-hidden">
+                                        <div style={{ height: '400px', }} class="card m-2 overflow-hidden">
                                             <div class="card-img-top"><img class="img-fluid" src={products.image} alt="Card image cap" /></div>
                                             <div class="card-body">
                                                 <h5 class="card-title">{products.name}</h5>

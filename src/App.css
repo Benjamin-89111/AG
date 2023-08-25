@@ -148,9 +148,17 @@ body {
 a{
   text-decoration: none !important;
 }
+.section-2{
+  background-image: linear-gradient(to right, #DECBA4, #3E5151) !important;
+  ;
+}
+.section-1{
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.section-3{
+  background-image: linear-gradient(to right, #d3cce3, #e9e4f0); 
 
-.pg-1,body{
-  background-image: linear-gradient(to right, #DECBA4, #3E5151);
-  color: #fff !important;
-
+}
+.navbar-toggler-icon{
+  background-image: ('data:image/svg+xml,%3Csvg xmlns="http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg" width="28" height="28" viewBox="0 0 512 512"%3E%3Cpath fill="white" d="M64 384h384v-42.67H64Zm0-106.67h384v-42.66H64ZM64 128v42.67h384V128Z"%2F%3E%3C%2Fsvg%3E') !important
 }

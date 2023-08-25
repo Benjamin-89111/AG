@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import Header from "./Header"
 import cc from './Commercial Cleaning.jpg'
 import cc1 from './cc.jpg'
+import Footer from "./Footer"
 
 function CommercialCleaning() {
     return (
@@ -10,9 +11,9 @@ function CommercialCleaning() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5">
+                <Col lg={12} className="p-5 section-2 text-white">
                     <Container>
-                        <Row>
+                        <Row className="">
                             <h1 className="text-center mb-3">Commercial Cleaning</h1>
                             <Col lg={6} className="p-4">
                                 <img src={cc} width="100%" />
@@ -26,41 +27,7 @@ function CommercialCleaning() {
                                     reputation as a trusted partner for maintaining clean, safe, and welcoming environments.
                                 </p>
                             </Col>
-                            {/* <Col lg={12}>
-                                <h2 className="text-center">Services Offered</h2>
-                                <ol>
-                                    <li>
-                                        <p>
-                                            <span className="fw-bold">Office Cleaning:</span> AG Property & Facility specializes in thorough office cleaning services that ensure a pristine and organized workspace. From dusting and vacuuming to disinfecting high-touch surfaces, their team guarantees a healthy and productive work atmosphere.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <span className="fw-bold">Retail Space Cleaning: </span> Retail environments require consistent cleaning to create an inviting shopping experience. AG Property & Facility's retail cleaning services focus on maintaining cleanliness in high-traffic areas, restrooms, and product displays.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <span className="fw-bold">Industrial Cleaning:</span> AG Property & Facility recognizes the unique cleaning needs of industrial settings. They provide deep cleaning, machinery cleaning, and safety-focused solutions to maintain a safe and productive industrial workspace.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <span className="fw-bold">Janitorial Services: </span> The company offers full-scale janitorial services tailored to each client's specific requirements. This includes regular cleaning, restroom maintenance, trash removal, and more.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <span className="fw-bold">Window and Glass Cleaning:</span> AG Property & Facility ensures that your windows and glass surfaces are spotless, contributing to a bright and transparent interior.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p>
-                                            <span className="fw-bold">Floor Care:</span> From carpets to hardwood, AG Property & Facility employs advanced techniques to keep floors clean, polished, and safe.
-                                        </p>
-                                    </li>
-                                </ol>
-                            </Col> */}
+                            
                             <Col lg={12}>
                                 <h2 className="text-center">Key Features:</h2>
                                 <ol>
@@ -80,6 +47,9 @@ function CommercialCleaning() {
                             </Col>
                         </Row>
                     </Container>
+                </Col>
+                <Col lg={12}>
+                    <Footer/>
                 </Col>
             </Row>
         </>

@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import Header from "./Header"
 import bm1 from './bm.jpg'
 import bm from './bm1.jpg'
+import Footer from "./Footer"
 function FacilityManagement() {
     return (
         <>
@@ -9,7 +10,7 @@ function FacilityManagement() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5">
+                <Col lg={12} className="p-5 section-2 text-white">
                     <Container>
                         <Row>
                             <h1 className="text-center mb-3">Facility Management</h1>
@@ -24,7 +25,7 @@ function FacilityManagement() {
                             </Col>
                             <Col lg={12}>
                                 <h2 className="text-center">Key Features:</h2>
-                              
+
                                 <ol>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Holistic Approach:</strong> AG Property & Facility takes a holistic view of facility management, addressing various aspects to create an integrated and optimized environment.</li>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Tailored Strategies:</strong> Recognizing that every property has unique needs, the company crafts individualized facility management strategies to meet specific requirements.</li>
@@ -46,6 +47,9 @@ function FacilityManagement() {
                             </Col>
                         </Row>
                     </Container>
+                </Col>
+                <Col lg={12}>
+                    <Footer />
                 </Col>
             </Row>
         </>

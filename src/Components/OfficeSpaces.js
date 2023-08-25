@@ -10,7 +10,7 @@ function OfficeSpaces() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5">
+                <Col lg={12} className="section-3 p-5">
                     <Container>
                         <Row>
                             <h1 className="text-center mb-3">Office Spaces</h1>

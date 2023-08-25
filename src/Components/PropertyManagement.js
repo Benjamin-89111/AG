@@ -9,7 +9,7 @@ function PropertyManagement() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5">
+                <Col lg={12} className="p-5 section-3">
                     <Container>
                         <Row>
                             <h1 className="text-center mb-3">Property Management</h1>

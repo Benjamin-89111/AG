@@ -52,7 +52,7 @@ function OurProperties() {
     return (
         <>
             <Row cla>
-                <Col lg={12} className="pg-1 p-5">
+                <Col lg={12} className="p-5">
                     <Container>
                         <Row>
                             <h2 className="text-center text-white mt-3 mb-1">Our Properties</h2>
