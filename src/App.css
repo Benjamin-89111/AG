@@ -162,3 +162,21 @@ a{
 .navbar-toggler{
   background: #fff !important;
 }
+@media screen and (min-width: 992px) {
+  .services-1{
+    background: rgba(0, 0, 0, .5) !important;
+    margin: 0 20px !important;
+    padding: 15px !important;
+    backdrop-filter: blur(20px) !important;
+    color: #fff !important;
+    height: 400px !important;
+  }
+}
+.services-1{
+  background: rgba(0, 0, 0, .5) !important;
+  margin: 0 20px !important;
+  padding: 15px !important;
+  backdrop-filter: blur(20px) !important;
+  color: #fff !important;
+  height: auto ;
+}

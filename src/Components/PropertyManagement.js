@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import Header from "./Header"
 import bm1 from './bm.jpg'
 import bm from './bm1.jpg'
+import Footer from "./Footer"
 function PropertyManagement() {
     return (
         <>
@@ -46,6 +47,9 @@ function PropertyManagement() {
                             </Col>
                         </Row>
                     </Container>
+                </Col>
+                <Col lg={12}>
+                    <Footer />
                 </Col>
             </Row>
         </>

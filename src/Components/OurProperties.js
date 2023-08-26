@@ -59,7 +59,7 @@ function OurProperties() {
                             <h4 className="text-center text-white mb-3">We Cover Everything</h4>
                             {currentProducts.map((product) => (
                                 <Col md={4} lg={3} key={product.id}>
-                                    <Card style={{ height: '400px', borderRadius: '0px' }} className="services m-2">
+                                    <Card style={{ height: 'auto', borderRadius: '0px' }} className="services-1 m-2">
                                         <div className="card-body">
                                             <h4 className="text-white text-center mb-3">{product.name}</h4>
                                             <p className="text-white text-center">{product.description}</p>

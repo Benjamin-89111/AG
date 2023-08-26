@@ -98,7 +98,7 @@ const Testimonials = () => {
                             <Slider {...carouselSettings}>
                                 {products.map(products => (
                                     <div key={products.id} className="image-container">
-                                        <div style={{height:'340px'}} class="card border-white border services ms-2 me-2 mt-3 mb-3 overflow-hidden">
+                                        <div style={{height:"430px"}} class="card border-white border services ms-2 me-2 mt-3 mb-3 overflow-hidden">
                                             <div class="card-body ">
                                                 <div className='d-flex justify-content-center'>
                                                 <img width="80px" height="80px" src={products.image} className="rounded-circle"/>

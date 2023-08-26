@@ -15,7 +15,7 @@ function EventSpaces() {
                         <Row>
                             <h1 className="text-center mb-3">Event Spaces</h1>
                             <Col lg={6} className="p-4">
-                                <img src="https://imgs.search.brave.com/isQL1bI-YahVeXf4wUizyBKnnODqVu5FQXq9iDwflio/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/dGFndmVudWUuY29t/L3Jlc2l6ZS84My80/MC9maXQtNTM1LTM1/ODszNTc1OC12ZXJz/YXRpbGUtZXZlbnQt/c3BhY2Utcm9vbS5q/cGc" width="100%" />
+                                <img src="https://imgs.search.brave.com/w8qFvsGjSFsjIomu9-EtDvIejpmBHxthE9hV92rJCPA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/b3JnYW5pemVyc2lu/ZGlhLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wMy9l/eGhpYml0aW9uLWlu/LWluZGlhLmpwZw" width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
                                 <h2>Introduction :</h2>

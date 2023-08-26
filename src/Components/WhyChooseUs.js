@@ -21,7 +21,7 @@ function WideCoverage() {
                 <Container>
                     <Row className="p-4 text-white">
                         <Col lg={6} className="p-2">
-                            <h2 className="mb-4">Why Why Choose Us ?</h2>
+                            <h2 className="mb-4">Why Choose Us ?</h2>
                             <img className="rounded" src="https://media.istockphoto.com/id/1418278677/photo/school-janitors-in-the-classroom.jpg?s=612x612&w=0&k=20&c=md9mjFrDEQKK1iSZLtRE7rHG9ZjGMarJ3pxjd7bcm1w=" width="100%" />
                         </Col>
                         <Col lg={6} className="text-white">

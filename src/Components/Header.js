@@ -34,7 +34,7 @@ const Header = () => {
             <NavDropdown className='fw-bold  ms-3 properties text-white' title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to="/Commercial-Cleaning" className='fw-bold text-dark' >Commercial Cleaning</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Building-Maintainence" className='fw-bold text-dark' >Building Maintenance</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Man-Power" className='fw-bold text-dark' >Man-Power</NavDropdown.Item>
+              {/* <NavDropdown.Item as={Link} to="/Man-Power" className='fw-bold text-dark' >Man-Power</NavDropdown.Item> */}
               <NavDropdown.Item as={Link} to="/Facility-Management" className='fw-bold text-dark' >Facility Management</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Maintainence" className='fw-bold text-dark' >Maintenance</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Cleaning" className='fw-bold text-dark' >Cleaning</NavDropdown.Item>
@@ -47,6 +47,11 @@ const Header = () => {
               <NavDropdown.Item as={Link} to="/Large-Office-Spaces" className='fw-bold text-dark' >Large Office Spaces</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Event-Spaces" className='fw-bold text-dark' >Event Spaces</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link className='fw-bold menu-opt text-white'>
+              <Link to="/Man-Power">
+                <span className='text-white ms-3 '>Man Power</span>
+              </Link>
+            </Nav.Link>
           </Nav>
 
           <Button as={Link} to="/Enquire" size='md' style={{ background: "#ff8000" }} href="#about" className="border-0 mb-3 mb-lg-0">

@@ -15,7 +15,7 @@ function WarmShellSpaces() {
                         <Row>
                             <h1 className="text-center mb-3">Warm Shell Spaces</h1>
                             <Col lg={6} className="p-4">
-                                <img src="https://imgs.search.brave.com/txb0ukypzVtul27_Oy7PqXA6v2MqWeUTmmT-M6IOUpg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/am9zaHlweXJvdGVj/aG5pY3MuY29tL3Rv/d2VyL2ltYWdlcy9X/b3JrX1N0YXRpb24u/anBn" width="100%" />
+                                <img src="https://imgs.search.brave.com/hcQBuWJpMTZT1LXpXtWrKaOF-yXRlMqZq8VKXyh1Vq8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/aW9wdGltaXplcmVh/bHR5LmNvbS9odWJm/cy9zaGVsbCUyMHNw/YWNlLmpwZWc" width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
                                 <h2>Introduction :</h2>
@@ -36,7 +36,7 @@ function WarmShellSpaces() {
 
                             </Col>
                             <Col lg={6} className="p-4 order-lg-2">
-                                <img src="https://imgs.search.brave.com/0Z3zmQc7vgBiBTfb0gNUQ087LpQZ1525zk7VDzLmi74/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hcXVp/bGFjb21tZXJjaWFs/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOC8wNi9DYXBp/dGFsRmFjdG9yeTMu/anBn" className="w-100" />
+                                <img src="https://imgs.search.brave.com/rAQ8aha6FT7pjcfNm49STriuNccVJ3WZBJwZySlTTPE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucHJpc21pYy5p/by9sZWFzZS10by1t/ZS9jMDg4NmIzOC0x/MGYzLTRiYjctYTlh/NC00M2I1YzNmMDZj/YWJfV2FybStWYW5p/bGxhK1NoZWxsLkpQ/Rz9hdXRvPWNvbXBy/ZXNzLGZvcm1hdA" className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
                                 <h2 className="text-start">Conclusion</h2>
