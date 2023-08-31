@@ -109,9 +109,9 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-4 text-white col-lg-3 col-xl-3 mx-auto mt-3">
                                     <h5 class="text-uppercase mb-4 font-weight-bold text-white ">Contact Us</h5>
-                                    <p><span style={{ textDecoration: 'underline' }}>Location </span> {' '}: <i class="fas fa-home mr-3"></i>India , Singapore , Malaysia</p>
-                                    <p><i class="fas fa-envelope mr-3"></i> info@agpropertyfacility.com</p>
-                                    <p><i class="fas fa-phone mr-3"></i> +91 9840389051</p>
+                                    <p><span>Location </span> {' '}: <i class="fas fa-home mr-3"></i>India , Singapore , Malaysia</p>
+                                    <p>info@agpropertyfacility.com</p>
+                                    <p>Contact No : 7845800982</p>
                                 </div>
                                 {/* <!-- Grid column --> */}
                             </div>

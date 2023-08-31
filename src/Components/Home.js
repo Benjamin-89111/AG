@@ -43,12 +43,12 @@ function Home() {
                 {/* <Col lg={12}>
                     <Certificate />
                 </Col> */}
-                <Col lg={12} className="section-1">
+                {/* <Col lg={12} className="section-1">
                     <Testimonials />
-                </Col>
-                <Col lg={12} className="section-2">
+                </Col> */}
+                {/* <Col lg={12} className="section-2">
                     <Blog />
-                </Col>
+                </Col> */}
                 <Col lg={12}>
                     <Footer />
                 </Col>

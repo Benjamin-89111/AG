@@ -1,12 +1,41 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Card, Form, Button, Col, Row } from 'react-bootstrap';
-import banner from './Bg_video.mp4'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import banner from './Bg_video1.mp4';
+import emailjs from '@emailjs/browser';
+
 const VideoBanner = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_eq1afuh', 'template_kocl6kj', form.current, 'bOlXJsL30Rrl49hms')
+      .then((result) => {
+        console.log(result.text);
+        toast.success('Your Request Has Been Submitted');
+      })
+      .catch((error) => {
+        console.log(error.text);
+        toast.error('Error submitting request. Please try again.');
+      });
+  };
+
   const bannerStyles = {
     position: 'relative',
     width: '100%',
     height: 'auto',
     overflow: 'hidden',
+  };
+
+  const contentContainerStyles = {
+    position: 'relative',
+    width: '100%',
+    color: 'white',
+    padding: '20px',
+    zIndex: 1,
   };
 
   const videoStyles = {
@@ -27,14 +56,6 @@ const VideoBanner = () => {
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   };
 
-  const contentContainerStyles = {
-    position: 'relative',
-    width: '100%',
-    color: 'white',
-    padding: '20px',
-    zIndex: 1,
-  };
-
   const textStyles = {
     marginBottom: '1rem',
   };
@@ -49,7 +70,7 @@ const VideoBanner = () => {
   };
 
   return (
-    <div className="video-banner " style={bannerStyles}>
+    <div className="video-banner" style={bannerStyles}>
       <video autoPlay loop muted playsInline style={videoStyles}>
         <source src={banner} type="video/mp4" />
         Your browser does not support the video tag.
@@ -61,32 +82,31 @@ const VideoBanner = () => {
             <div className='p-2 mt-lg-5' style={textStyles}>
               <h2 style={h1Styles}>AG Property and Facility Management. </h2>
               <p style={pStyles}>
-                Welcome to AG Property and Facility Management. Our mission is to make a positive impact on the world. Trust us for tailor-made solutions for Cleaning, Security, and Maintenance.
+                Welcome to AG Property and Facility Management. Our mission is to make a positive impact on the world. Trust us for tailor-made solutions for Cleaning, Security, and Maintenance.
               </p>
-              {/* <Button size='lg' className='buttons-ag border-0'>Get Quote</Button> */}
             </div>
           </Col>
           <Col lg={5} md={12}>
             <Card className='home_heroform' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', border: 'none' }}>
               <Card.Body>
                 <Card.Title className='text-white' as="h3">Get a Quote</Card.Title>
-                <Card.Text className='text-white'>Get in touch, call us on <span className="text-success">9840389051</span> </Card.Text>
-                <Form>
-                  <Form.Group controlId="name">
+                <Card.Text className='text-white'>Get in touch, call us on <span className="text-success">7845800982</span> </Card.Text>
+                <Form ref={form} onSubmit={sendEmail}>
+                  <Form.Group className='mb-3' controlId="name">
                     <Form.Label className='text-white'>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your name" />
+                    <Form.Control required type="text" name="user_name" placeholder="Enter your name" />
                   </Form.Group>
                   <Form.Group controlId="phone" className='mb-3'>
                     <Form.Label className='text-white'>Phone</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your phone number" />
+                    <Form.Control required type="text" name="user_contact" placeholder="Enter your phone number" />
                   </Form.Group>
                   <Form.Group controlId="email" className='mb-3'>
                     <Form.Label className='text-white'>Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter your email" />
+                    <Form.Control required type="email" name="user_email" placeholder="Enter your email" />
                   </Form.Group>
                   <Form.Group controlId="message" className='mb-3'>
                     <Form.Label className='text-white'>Message</Form.Label>
-                    <Form.Control as="textarea" rows={3} placeholder="Enter your message" />
+                    <Form.Control required as="textarea" name="message" rows={3} placeholder="Enter your message" />
                   </Form.Group>
                   <Button size='md' className='mt-3 contact-btn border-0' type="submit">
                     Send
@@ -97,6 +117,7 @@ const VideoBanner = () => {
           </Col>
         </Row>
       </div>
+      <ToastContainer />
     </div>
   );
 };

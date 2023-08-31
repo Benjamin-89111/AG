@@ -145,25 +145,31 @@ body {
   --bs-navbar-padding-x: 0 !important;
   --bs-navbar-padding-y: 0 !important;
 }
-a{
+
+a {
   text-decoration: none !important;
 }
-.section-2{
+
+.section-2 {
   background-image: linear-gradient(to right, #DECBA4, #3E5151) !important;
   ;
 }
-.section-1{
+
+.section-1 {
   background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
-.section-3{
-  background-image: linear-gradient(to right, #d3cce3, #e9e4f0); 
 
+.section-3 {
+  background-image: linear-gradient(to right, #DECBA4, #3E5151) !important;
+  color: #fff !important;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   background: #fff !important;
 }
+
 @media screen and (min-width: 992px) {
-  .services-1{
+  .services-1 {
     background: rgba(0, 0, 0, .5) !important;
     margin: 0 20px !important;
     padding: 15px !important;
@@ -172,11 +178,12 @@ a{
     height: 400px !important;
   }
 }
-.services-1{
+
+.services-1 {
   background: rgba(0, 0, 0, .5) !important;
   margin: 0 20px !important;
   padding: 15px !important;
   backdrop-filter: blur(20px) !important;
   color: #fff !important;
-  height: auto ;
+  height: auto;
 }
