@@ -32,21 +32,46 @@ const Header = () => {
               </Link>
             </Nav.Link>
             <NavDropdown className='fw-bold  ms-3 properties text-white' title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/Commercial-Cleaning" className='fw-bold text-dark' >Commercial Cleaning</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Building-Maintainence" className='fw-bold text-dark' >Building Maintenance</NavDropdown.Item>
-              {/* <NavDropdown.Item as={Link} to="/Man-Power" className='fw-bold text-dark' >Man-Power</NavDropdown.Item> */}
-              <NavDropdown.Item as={Link} to="/Facility-Management" className='fw-bold text-dark' >Facility Management</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Maintainence" className='fw-bold text-dark' >Maintenance</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Cleaning" className='fw-bold text-dark' >Cleaning</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Property-Management" className='text-dark' >Property Management</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Commercial-Cleaning" className='text-dark' >Commercial Cleaning</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Building-Maintainence" className='text-dark' >Building Maintenance</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Facility-Management" className='text-dark' >Facility Management</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Maintainence" className='text-dark' >Maintenance</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Cleaning" className='text-dark' >Cleaning</NavDropdown.Item>
             </NavDropdown>
             {/* <Nav.Link className='fw-bold text-white' href="blog.html">Blog</Nav.Link> */}
-            <NavDropdown className='fw-bold  ms-3 properties text-white' title="Properties" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/Property-Management" className='fw-bold text-dark' >Property Management</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Warm-Shell-Spaces" className='fw-bold text-dark' >Warm Shell Spaces</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Office-Spaces" className='fw-bold text-dark' >Office Spaces</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Large-Office-Spaces" className='fw-bold text-dark' >Large Office Spaces</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Event-Spaces" className='fw-bold text-dark' >Event Spaces</NavDropdown.Item>
+            <NavDropdown
+              className='fw-bold ms-3 properties text-white'
+              title="Properties"
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item as={Link} to="/Commercial-Spaces" className='text-dark'>
+                Commercial Space
+              </NavDropdown.Item>
+              <NavDropdown
+                title="Residential Spaces"
+                id="residential-dropdown"
+              >
+                {/* Add sub-menu items here */}
+                <NavDropdown.Item as={Link} to="/Office-Spaces" className='text-dark'>
+                  Office Spaces
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Warm-Shell-Spaces" className='text-dark'>
+                  Warm Shell Spaces
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Office-Spaces" className='text-dark'>
+                  Office Spaces
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Large-Office-Spaces" className='text-dark'>
+                  Large Office Spaces
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Event-Spaces" className='text-dark'>
+                  Event Spaces
+                </NavDropdown.Item>
+              </NavDropdown>
+
             </NavDropdown>
+
             <Nav.Link className='fw-bold menu-opt text-white'>
               <Link to="/Man-Power">
                 <span className='text-white ms-3 '>Man Power</span>
@@ -54,7 +79,7 @@ const Header = () => {
             </Nav.Link>
           </Nav>
 
-          <Button as={Link} to="/Enquire" size='md' style={{ background: "#ff8000" }} href="#about" className="border-0 mb-3 mb-lg-0">
+          <Button as={Link} to="/Enquire" size='md' style={{ background: "#ff8000" }} href="#about" className="border-0 fw-bold mb-3 mb-lg-0">
             Enquire Now
           </Button>
         </Navbar.Collapse>

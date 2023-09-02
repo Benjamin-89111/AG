@@ -36,6 +36,12 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h5 class="text-uppercase mb-4 font-weight-bold text-white ">SERVICES</h5>
+
+                                    <Link to="/Property-Management" target="_blank">
+                                        <p>
+                                            <a className="text-white">Property Management</a>
+                                        </p>
+                                    </Link>
                                     <Link to="/Commercial-Cleaning" target="_blank">
                                         <p>
                                             <a className="text-white">Commercial Cleaning</a>
@@ -76,11 +82,7 @@ function Footer() {
                                     <h5 class="text-uppercase mb-4 font-weight-bold text-white ">
                                         Properties
                                     </h5>
-                                    <Link to="/Property-Management" target="_blank">
-                                        <p>
-                                            <a className="text-white">Property Management</a>
-                                        </p>
-                                    </Link>
+
                                     <Link to="/Warm-Shell-Spaces" target="_blank">
                                         <p>
                                             <a className="text-white">Warm Shell Spaces</a>

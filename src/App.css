@@ -187,3 +187,18 @@ a {
   color: #fff !important;
   height: auto;
 }
+
+::placeholder {
+  font-size: 0.8rem !important;
+}
+
+.card {
+  --bs-card-spacer-y: 0 !important;
+  --bs-card-spacer-x: 0 !important;
+}
+
+.dropdown-item,
+#residential-dropdown {
+  color: rgba(33, 37, 41) !important;
+  font-weight: lighter !important;
+}
