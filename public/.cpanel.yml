@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hicnq61z0vub/public_html/
-    - /bin/cp * $DEPLOYPATH
-    # - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp App.css $DEPLOYPATH
