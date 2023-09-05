@@ -202,3 +202,6 @@ a {
   color: rgba(33, 37, 41) !important;
   font-weight: lighter !important;
 }
+.drop{
+  margin-left: 20px;
+}

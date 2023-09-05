@@ -45,11 +45,11 @@ const Header = () => {
               title="Properties"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item as={Link} to="/Commercial-Spaces" className='text-dark'>
-                Commercial Space
+              <NavDropdown.Item as={Link} to="/Residential-Spaces" className='text-dark'>
+                Residential Spaces
               </NavDropdown.Item>
               <NavDropdown
-                title="Residential Spaces"
+                title="Commercial Space"
                 id="residential-dropdown"
               >
                 {/* Add sub-menu items here */}

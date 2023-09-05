@@ -16,6 +16,8 @@ import OfficeSpaces from "../Components/OfficeSpaces";
 import LargeOfficeSpaces from "../Components/LargeOfficeSpaces";
 import EventSpaces from "../Components/EventSpaces";
 import EnquireNow from "../Components/EnquireNow";
+import ResidentialSpaces from "../Components/ResidentialSpaces";
+import PropertyDetails from "../Components/PropertyDetails";
 function Router() {
     return (
         <>
@@ -69,6 +71,10 @@ function Router() {
                     <Route path="/Enquire">
                         <EnquireNow />
                     </Route>
+                    <Route path="/Residential-Spaces">
+                        <ResidentialSpaces />
+                    </Route>
+                    <Route path="/property/:id" component={PropertyDetails} />
                 </Switch>
             </BrowserRouter>
         </>
