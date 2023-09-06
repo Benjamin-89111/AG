@@ -41,7 +41,7 @@ const Header = () => {
             </NavDropdown>
             {/* <Nav.Link className='fw-bold text-white' href="blog.html">Blog</Nav.Link> */}
             <NavDropdown
-              className='fw-bold ms-3 properties text-white'
+              className='fw-bold properties ms-3 text-white'
               title="Properties"
               id="basic-nav-dropdown"
             >
@@ -51,6 +51,7 @@ const Header = () => {
               <NavDropdown
                 title="Commercial Space"
                 id="residential-dropdown"
+                className='ms-3 ms-lg-0'
               >
                 {/* Add sub-menu items here */}
                 <NavDropdown.Item as={Link} to="/Office-Spaces" className='text-dark'>

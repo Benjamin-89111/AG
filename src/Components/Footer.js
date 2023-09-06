@@ -10,7 +10,6 @@ function Footer() {
                 {/* <!-- Footer --> */}
                 <footer
                     class="text-center text-lg-start text-dark"
-
                 >
                     {/* <!-- Grid container --> */}
                     <div class="container p-4 pb-0">
@@ -82,7 +81,11 @@ function Footer() {
                                     <h5 class="text-uppercase mb-4 font-weight-bold text-white ">
                                         Properties
                                     </h5>
-
+                                    <Link to="/Residential-Spaces" target="_blank">
+                                        <p>
+                                            <a className="text-white">Residential Spaces</a>
+                                        </p>
+                                    </Link>
                                     <Link to="/Warm-Shell-Spaces" target="_blank">
                                         <p>
                                             <a className="text-white">Warm Shell Spaces</a>
@@ -111,9 +114,11 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-4 text-white col-lg-3 col-xl-3 mx-auto mt-3">
                                     <h5 class="text-uppercase mb-4 font-weight-bold text-white ">Contact Us</h5>
-                                    <p><span>Location </span> {' '}: <i class="fas fa-home mr-3"></i>India , Singapore , Malaysia</p>
-                                    <p>info@agpropertyfacility.com</p>
-                                    <p>Contact No : 7845800982</p>
+                                    {/* <p><span>Location </span> {' '}: <i class="fas fa-home mr-3"></i>India , Singapore , Malaysia</p> */}
+                                    <p className='mb-0'><Icon className='me-1' icon="mingcute:mail-fill" color="#ff8000" width="24" height="24" />Email Us :</p>
+                                    <p className='mt-2'>info@agpropertyfacility.com</p>
+                                    <p className='mb-0'><Icon className='me-1' icon="bi:phone-fill" color="#ff8000" width="24" height="24" />Call Us :</p>
+                                    <p className='mt-2'> 7845800982</p>
                                 </div>
                                 {/* <!-- Grid column --> */}
                             </div>
@@ -140,19 +145,25 @@ function Footer() {
                                 <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                                     <div className="social-icons">
                                         <div className='fw-bold text-white'>
-                                            Follow Us On
+                                            Follow :
                                         </div>{' '}:
-                                        <a href="#" className="icon-link" title="Facebook">
+                                        <a target="_blank" href="https://www.facebook.com/agpropertyfacility/" className="icon-link" title="Facebook">
                                             <Icon icon="la:facebook-square" color="white" width="34" height="34" />
                                         </a>
-                                        <a href="#" className="icon-link" title="Twitter">
+                                        <a href="https://twitter.com/AG_propfac" target='_blank' className="icon-link" title="Twitter">
                                             <Icon icon="ri:twitter-x-line" color="white" width="28" height="28" />
                                         </a>
-                                        <a href="#" className="icon-link" title="Youtube">
+                                        <a target='_blank' href="https://www.youtube.com/channel/UC_OJpayOZRdt6I4vkG-9uqA" className="icon-link" title="Youtube">
                                             <Icon icon="ant-design:youtube-outlined" color="white" width="28" height="28" />
                                         </a>
-                                        <a href="#" className="icon-link" title="Instagram">
+                                        <a target='_blank' href="https://www.instagram.com/agpf_media/" className="icon-link" title="Instagram">
                                             <Icon icon="mdi:instagram" color="white" width="28" height="28" />
+                                        </a>
+                                        <a target='_blank' href="https://www.linkedin.com/company/99914068/admin/feed/posts/" className="icon-link" title="Linkedin">
+                                            <Icon icon="basil:linkedin-outline" color="white" width="28" height="28" />
+                                        </a>
+                                        <a href="https://in.pinterest.com/agpropertymanagement/" target='_blank' className="icon-link" title="Pinterest">
+                                            <Icon icon="tabler:brand-pinterest" color="white" width="28" height="28" />
                                         </a>
                                     </div>
                                 </div>

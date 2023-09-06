@@ -5,6 +5,7 @@ import propertyData from "./propertyData"
 import { Card, Col, Container, Row } from "react-bootstrap";
 import Header from "./Header";
 import Footer from "./Footer";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 const PropertyDetail = () => {
   const { id } = useParams();
   const property = propertyData.find((p) => p.id === parseInt(id));
@@ -71,7 +72,9 @@ const PropertyDetail = () => {
                     </tr>
                   </tbody>
                 </table>
+                <Link to="/Enquire">
                 <h6 style={{color:"#ff8000"}} className="text-center mt-2 fw-bold">For More Details Contact Our Support</h6>
+                </Link>
               </Card.Body>
             </Card>
 
