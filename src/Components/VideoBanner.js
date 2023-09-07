@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Card, Form, Button, Col, Row } from 'react-bootstrap';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import banner from './contact.mp4';
+import banner from './Bg_video1.mp4';
 import emailjs from '@emailjs/browser';
 
 const VideoBanner = () => {
