@@ -25,13 +25,13 @@ function OurServices() {
         },
         {
             id: 3,
-            name: "Man-Power",
-            description: "Manpower services involve providing skilled and reliable personnel to fulfill various job roles and tasks across different industries and sectors."
+            name: "Facility Management",
+            description: "Facility management services encompass comprehensive oversight and optimization of physical spaces and resources to enhance functionality, safety, and user experience within a facility."
         },
         {
             id: 4,
-            name: "Facility Management",
-            description: "Facility management services encompass comprehensive oversight and optimization of physical spaces and resources to enhance functionality, safety, and user experience within a facility."
+            name: "Man-Power",
+            description: "Manpower services involve providing skilled and reliable personnel to fulfill various job roles and tasks across different industries and sectors."
         },
         {
             id: 5,
@@ -61,17 +61,17 @@ function OurServices() {
     return (
         <>
             <Row>
-                <Col lg={12} className=" p-5">
+                <Col lg={12} className="p-1">
                     <Container>
                         <Row>
-                            <h2 className="text-center text-white">Our Services</h2>
+                            <h3 style={{color:"#ff8000"}} className="text-center fw-bold">Our Services</h3>
                             <h4 className="text-center text-white mb-3">We Cover Everything</h4>
                             {currentProducts.map((product) => (
                                 <Col md={4} lg={3} key={product.id}>
                                     <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
-                                        <div className="card-body">
-                                            <h4 className="text-center text-white mb-3">{product.name}</h4>
-                                            <p className="text-center text-white">{product.description}</p>
+                                        <div className="card-body p-3">
+                                            <h3 style={{color:"#ff8000",fontSize:"20px"}} className="text-center fw-semibold mb-3">{product.name}</h3>
+                                            <p style={{fontWeight:"lighter"}} className="text-center text-white">{product.description}</p>
                                         </div>
                                     </Card>
                                 </Col>

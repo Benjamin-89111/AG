@@ -151,7 +151,7 @@ a {
 }
 
 .section-2 {
-  background-image: linear-gradient(to right, #DECBA4, #3E5151) !important;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   ;
 }
 
@@ -160,8 +160,7 @@ a {
 }
 
 .section-3 {
-  background-image: linear-gradient(to right, #DECBA4, #3E5151) !important;
-  color: #fff !important;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 .navbar-toggler {
@@ -213,3 +212,19 @@ a {
   --bs-dropdown-link-active-bg: #ff8000 !important;
 }
 
+.ag-head:hover,
+#basic-nav-dropdown:hover {
+  color: #ff8000 !important;
+  transition: .5s;
+}
+
+.enq:hover {
+  background: #fff !important;
+  color: #ff8000 !important;
+  transition: all .5s;
+}
+
+.ctc:hover {
+  color: green !important;
+  transition: all .5s;
+}

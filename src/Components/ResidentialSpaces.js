@@ -42,7 +42,7 @@ const PropertyList = () => {
                         <h6>Location:<span style={{ fontSize: "15px" }} className="ms-2 fw-light">{property.location}</span></h6>
                         <h6>Land Area:<span style={{ fontSize: "15px" }} className="ms-2 fw-light">{property.landArea}</span></h6>
                         <h6>Status:<span style={{ fontSize: "15px" }} className="ms-2 fw-light">{property.status}</span></h6>
-                        <Button as={Link} to={`/property/${property.id}`} className="border-0 mt-3 d-block" style={{ background: "#ff8000" }}>
+                        <Button as={Link} to={`/property/${property.id}`} className="border-0 enq mt-3 d-block" style={{ background: "#ff8000" }}>
                           View Details
                         </Button>
                       </Card.Body>

@@ -36,24 +36,9 @@ const propertyData = [
         rentOrSale: "Sale",
         rate: "1.20 Cr (Negotiable)"
     },
+    
     {
         id: 3,
-        type: "New Flat House (Consider it as a separate bungalow)",
-        landArea: "900 sqft",
-        landSize: "23 x 30 , 6 x 30",
-        address: "Nandanam, near chamiers road, near cenotaph road, near moopanar flyover.",
-        features: "new construction, 30'road, Car parking, near Apollo hospital, Teynanpet, rental income property.",
-        buildingarea: "2700 sqft",
-        ageOfProperty: "New",
-        location: "Teynampet , Chennai",
-        furnished: "Semi-Furnished,New Flat",
-        status: <span className="badge fw-light bg-success">Available</span>,
-        rentOrSale: "Sale",
-        rate: " 10000/- per sqft (Nearby now prevailing rate is 12000/- but ready to give for Rs.10000/-)"
-
-    },
-    {
-        id: 4,
         type: "Individual Bungalow",
         landArea: "5110 sqft",
         landSize: "70 x 73",
@@ -72,7 +57,7 @@ const propertyData = [
 
     },
     {
-        id: 5,
+        id: 4,
         type: "Flats",
         address: "Annanagar, Chindamani back side, VOC Nagar,1st Floor(Roadside flat available with 4 balconies, Flat area 855 sq ft (UDS 486 sq ft)),2nd Floor(Roadside flat and backside flat available, Roadside flat size 855 sq ft (UDS 486 sq ft), Back Side Flat size 718 sq ft (UDS 407 sq ft))",
         features: "New House flat, Only two-wheeler parking",
@@ -90,7 +75,7 @@ const propertyData = [
         rate: "9000/- negotiable (Prevailing rate now in Anna Nagar Rs.12000/- and above)"
     },
     {
-        id: 6,
+        id: 5,
         type: "Flats",
         landArea: "2510 sq.ft",
         landSize: "Flat F2, 1210 sq feet (UDS 583 sq ft)",
@@ -108,7 +93,7 @@ const propertyData = [
         rate: "-"
     },
     {
-        id: 7,
+        id: 6,
         type: "Land and building",
         landArea: "2 Grounds",
         landSize: "17.5 x 10 ft entrance, and inside hall type, veg hotel was running,",
@@ -122,7 +107,22 @@ const propertyData = [
         rentOrSale: "Sale",
         rate: "25 Cr Negotiable"
     },
+    {
+        id: 7,
+        type: "New Flat House (Consider it as a separate bungalow)",
+        landArea: "900 sqft",
+        landSize: "23 x 30 , 6 x 30",
+        address: "Nandanam, near chamiers road, near cenotaph road, near moopanar flyover.",
+        features: "new construction, 30'road, Car parking, near Apollo hospital, Teynanpet, rental income property.",
+        buildingarea: "2700 sqft",
+        ageOfProperty: "New",
+        location: "Teynampet , Chennai",
+        furnished: "Semi-Furnished,New Flat",
+        status: <span className="badge fw-light bg-success">Available</span>,
+        rentOrSale: "Sale",
+        rate: " 10000/- per sqft (Nearby now prevailing rate is 12000/- but ready to give for Rs.10000/-)"
 
+    },
     // Add more properties as needed
 ];
 

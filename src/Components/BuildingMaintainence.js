@@ -10,21 +10,21 @@ function BuildingMaintainence() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5 section-2 text-white">
+                <Col lg={12} className="p-3 section-2 text-white">
                     <Container>
                         <Row>
-                            <h1 className="text-center mb-3">Building Maintainence</h1>
+                            <h1 className="text-center fw-bold mb-3">Building Maintainence</h1>
                             <Col lg={6} className="p-4">
                                 <img src={bm1} width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2>Introduction :</h2>
+                                <h2 style={{color:"#ff8000"}}>Introduction :</h2>
                                 <p>
                                     AG Property & Facility is a reputable name in the realm of building maintenance services, committed to providing comprehensive solutions that ensure the longevity, safety, and functionality of diverse properties. With a strong focus on expertise, reliability, and customer satisfaction, AG Property & Facility has emerged as a preferred partner for maintaining and enhancing the value of properties across various sectors.
                                 </p>
                             </Col>
                             <Col lg={12}>
-                                <h2 className="text-center">Key Features:</h2>
+                                <h2 style={{color:"#ff8000"}} className="text-center">Key Features:</h2>
                                 <ol>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Skilled Professionals:</strong> AG Property & Facility boasts a team of qualified professionals skilled in various aspects of building maintenance, guaranteeing top-notch services.</li>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Tailored Solutions:</strong> Recognizing that every property has unique requirements, the company offers customized maintenance plans designed to address specific needs and challenges.</li>
@@ -38,7 +38,7 @@ function BuildingMaintainence() {
                                 <img src={bm} className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 className="text-start">Conclusion</h2>
+                                <h2 style={{color:"#ff8000"}} className="text-start">Conclusion</h2>
                                 <p>
                                     AG Property & Facility stands as a trusted partner in the realm of building maintenance services, dedicated to ensuring the optimal performance, safety, and value of properties. Through their expertise, commitment to excellence, and customer-centric approach, they have established themselves as leaders in the industry, providing tailored solutions that meet the diverse needs of property owners and managers.
                                 </p>

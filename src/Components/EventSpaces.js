@@ -1,7 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap"
 import Header from "./Header"
-import bm1 from './bm.jpg'
-import bm from './bm1.jpg'
 import Footer from "./Footer"
 function EventSpaces() {
     return (
@@ -10,21 +8,21 @@ function EventSpaces() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="section-3 p-5">
+                <Col lg={12} className="section-3 text-white p-3">
                     <Container>
                         <Row>
-                            <h1 className="text-center mb-3">Event Spaces</h1>
+                            <h1 className="text-center fw-bold mb-3">Event Spaces</h1>
                             <Col lg={6} className="p-4">
                                 <img src="https://imgs.search.brave.com/w8qFvsGjSFsjIomu9-EtDvIejpmBHxthE9hV92rJCPA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/b3JnYW5pemVyc2lu/ZGlhLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wMy9l/eGhpYml0aW9uLWlu/LWluZGlhLmpwZw" width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2>Introduction :</h2>
+                                <h2 style={{color:"#ff8000"}}>Introduction :</h2>
                                 <p>
                                     AG Property & Facility takes pride in offering versatile and well-designed event spaces that provide the perfect backdrop for memorable occasions. With a focus on aesthetics, functionality, and flexibility, AG Property & Facility has established itself as a trusted provider of event spaces that cater to a wide range of events and celebrations.
                                 </p>
                             </Col>
                             <Col lg={12}>
-                                <h2 className="text-center">Key Features:</h2>
+                                <h2 style={{color:"#ff8000"}} className="text-center">Key Features:</h2>
 
                                 <ol>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Adaptability:</strong> AG Property & Facility's event spaces can be transformed to accommodate various event sizes, themes, and setups, ensuring a perfect fit.</li>
@@ -40,7 +38,7 @@ function EventSpaces() {
                                 <img src="https://imgs.search.brave.com/CYbtenLhw6pv_GwIJ55I82YN3Apxw5u4XXN4SU288Is/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/dGFndmVudWUuY29t/L3Jlc2l6ZS80Yy8y/Ny9maXQtNTM1LTM1/ODs0ODMxMy1tYWlu/LXNwYWNlLXJvb20u/anBlZw" className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 className="text-start">Conclusion</h2>
+                                <h2 style={{color:"#ff8000"}} className="text-start">Conclusion</h2>
                                 <p>
                                     AG Property & Facility's event spaces are a testament to their commitment to providing a canvas for unforgettable moments. With a focus on adaptability, aesthetics, and convenience, they offer the ideal setting for events that leave a lasting impression. AG Property & Facility's event spaces aren't just spaces; they are stages where celebrations, ideas, and connections come to life in the most captivating way.
                                 </p>

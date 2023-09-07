@@ -11,15 +11,15 @@ function CommercialCleaning() {
                 <Col lg={12}>
                     <Header />
                 </Col>
-                <Col lg={12} className="p-5 section-2 text-white">
+                <Col lg={12} className="p-3 section-2 text-white">
                     <Container>
                         <Row className="">
-                            <h1 className="text-center mb-3">Commercial Cleaning</h1>
+                            <h1  className="text-center fw-bold mb-3">Commercial Cleaning</h1>
                             <Col lg={6} className="p-4">
                                 <img src={cc} width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2>Introduction :</h2>
+                                <h2 style={{color:"#ff8000"}}>Introduction :</h2>
                                 <p>
                                     AG Property & Facility is a leading commercial cleaning services company dedicated to providing
                                     top-tier cleaning solutions for businesses across various industries. With a strong commitment
@@ -29,7 +29,7 @@ function CommercialCleaning() {
                             </Col>
                             
                             <Col lg={12}>
-                                <h2 className="text-center">Key Features:</h2>
+                                <h2 style={{color:"#ff8000"}} className="text-center">Key Features:</h2>
                                 <ol>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><b>Experienced Team:</b> AG Property & Facility boasts a team of skilled and trained cleaning professionals who understand the nuances of different industries and cleaning requirements.</li>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><b>Customized Solutions:</b> Recognizing that each business has unique needs, AG Property & Facility crafts customized cleaning plans to ensure a tailored approach for every client.</li>
@@ -42,7 +42,7 @@ function CommercialCleaning() {
                                 <img src={cc1} className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 className="text-center">Conclusion</h2>
+                                <h2 style={{color:"#ff8000"}} className="">Conclusion</h2>
                                 <p>AG Property & Facility stands out as a premier commercial cleaning services provider, dedicated to elevating the cleanliness and hygiene standards of businesses. With their professional approach, comprehensive range of services, and commitment to customer satisfaction, they have become a trusted partner for companies seeking reliable and top-quality cleaning solutions.</p>
                             </Col>
                         </Row>

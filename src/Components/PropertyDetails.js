@@ -74,7 +74,7 @@ const PropertyDetail = () => {
                   </tbody>
                 </table>
                 <Link to="/Enquire">
-                  <h6 style={{ color: "#ff8000" }} className="text-center mt-2 fw-bold">For More Details Contact Our Support</h6>
+                  <h6 style={{ color: "#ff8000" }} className="text-center ctc mt-2 fw-bold">For More Details Contact Our Support</h6>
                 </Link>
               </Card.Body>
             </Card>

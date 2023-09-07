@@ -122,7 +122,7 @@ const EnquireNow = () => {
                                                     <Form.Label className='text-white'>Message</Form.Label>
                                                     <Form.Control required as="textarea" name="message" rows={3} placeholder="Enter your message" />
                                                 </Form.Group>
-                                                <Button size='md' className='mt-3 contact-btn border-0' type="submit">
+                                                <Button size='md' className='mt-3 enq contact-btn border-0' type="submit">
                                                     Send
                                                 </Button>
                                             </Form>
