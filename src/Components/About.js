@@ -6,10 +6,10 @@ function About() {
     return (
         <>
             <Row>
-                <Col lg={12}>
+                <Col lg={12} className="mb-5">
                     <Header />
                 </Col>
-                <Col lg={12}>
+                <Col lg={12} className="mt-4">
                     <div className="section-2 text-white  p-3">
                         <Row className="container">
                             <h1 className="text-center fw-bold mb-3">About Us</h1>

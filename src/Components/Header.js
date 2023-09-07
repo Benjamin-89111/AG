@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <Navbar className='service-bg' expand="lg">
+    <Navbar className='service-bg' fixed='top' expand="lg">
       <div className="container">
         <Navbar.Brand className='me-lg-5'>
           <Link to="/">

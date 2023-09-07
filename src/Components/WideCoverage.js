@@ -8,8 +8,8 @@ function WideCoverage() {
             <Container>
                 <Row className="p-3">
                     <Col lg={6}>
-                        <h2 className="text-uppercase fw-bold" style={{ color: '#ff8000' }}>WIDE COVERAGE</h2>
-                        <h3 className="fw-bold text-white">Our Services are designed to make a difference within all sectors</h3>
+                        <h3 className="text-uppercase fw-bold" style={{ color: '#ff8000' }}>WIDE COVERAGE</h3>
+                        <h4 className="text-white">Our Services are designed to make a difference within all sectors</h4>
                         <p className="text-white">Our services include cleaning, maintenance, and security Nation wide. We are proud to be delivering across the world in the following industries</p>
                     </Col>
                     <Col lg={6}>

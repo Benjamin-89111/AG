@@ -16,10 +16,10 @@ function Home() {
     return (
         <>
             <Row>
-                <Col lg={12}>
+                <Col lg={12} className="mb-5">
                     <TopNavBar />
                 </Col>
-                <Col lg={12} className="">
+                <Col lg={12} className="mt-4">
                     <VideoBanner />
                 </Col>
                 <Col lg={12} className="text-white section-1">

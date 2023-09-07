@@ -22,10 +22,10 @@ const PropertyList = () => {
   return (
     <>
       <Row>
-        <Col lg={12}>
+        <Col lg={12} className="mb-5">
           <Header />
         </Col>
-        <div className="section-2 text-white">
+        <div className="section-2 mt-4 text-white">
           <h1 className="text-center fw-bold mt-3 mb-3">Property Listings</h1>
           <Container>
             <Row>

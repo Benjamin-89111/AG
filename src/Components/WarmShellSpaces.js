@@ -7,10 +7,10 @@ function WarmShellSpaces() {
     return (
         <>
             <Row>
-                <Col lg={12}>
+                <Col lg={12} className="mb-5">
                     <Header />
                 </Col>
-                <Col lg={12} className="section-3 text-white p-3">
+                <Col lg={12} className="section-3 mt-4 text-white p-3">
                     <Container>
                         <Row>
                             <h1 className="text-center fw-bold mb-3">Warm Shell Spaces</h1>

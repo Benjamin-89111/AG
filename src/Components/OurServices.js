@@ -64,7 +64,7 @@ function OurServices() {
                 <Col lg={12} className="p-1">
                     <Container>
                         <Row>
-                            <h3 style={{color:"#ff8000"}} className="text-center fw-bold">Our Services</h3>
+                            <h3 style={{color:"#ff8000"}} className="text-center text-uppercase fw-bold">Our Services</h3>
                             <h4 className="text-center text-white mb-3">We Cover Everything</h4>
                             {currentProducts.map((product) => (
                                 <Col md={4} lg={3} key={product.id}>

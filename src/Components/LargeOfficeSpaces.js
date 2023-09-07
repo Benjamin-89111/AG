@@ -7,10 +7,10 @@ function LargeOfficeSpaces() {
     return (
         <>
             <Row>
-                <Col lg={12}>
+                <Col lg={12} className="mb-5">
                     <Header />
                 </Col>
-                <Col lg={12} className="p-3 text-white section-3">
+                <Col lg={12} className="p-3 mt-4 text-white section-3">
                     <Container>
                         <Row>
                             <h1 className="text-center fw-bold mb-3">Large Office Spaces</h1>

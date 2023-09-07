@@ -8,10 +8,10 @@ function CommercialCleaning() {
     return (
         <>
             <Row>
-                <Col lg={12}>
+                <Col lg={12} className="mb-5">
                     <Header />
                 </Col>
-                <Col lg={12} className="p-3 section-2 text-white">
+                <Col lg={12} className="p-3 mt-4 section-2 text-white">
                     <Container>
                         <Row className="">
                             <h1  className="text-center fw-bold mb-3">Commercial Cleaning</h1>

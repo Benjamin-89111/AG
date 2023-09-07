@@ -79,10 +79,10 @@ const EnquireNow = () => {
     return (
         <>
             <Row>
-                <Col lg={12}>
+                <Col lg={12} className='mb-5'>
                     <Header />
                 </Col>
-                <Col lg={12}>
+                <Col lg={12} className='mt-4'>
                     <div className="video-banner " style={bannerStyles}>
                         <video autoPlay loop muted playsInline style={videoStyles}>
                             <source src={banner} type="video/mp4" />
