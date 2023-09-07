@@ -135,7 +135,7 @@ function Footer() {
                                 <div class="col-md-7 col-lg-8 text-center text-md-start">
                                     {/* <!-- Copyright --> */}
                                     <div class="p-3 text-white">
-                                        © 2023 Copyright <span className='fw-semibold'>AG Property & Facility</span>
+                                        © 2023 Copyrights <span style={{ color: "#ff8000" }} className='fw-light'>AG Property & Facility</span>
                                     </div>
                                     {/* <!-- Copyright --> */}
                                 </div>
@@ -144,26 +144,26 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                                     <div className="social-icons">
-                                        <div className='fw-bold text-white'>
+                                        {/* <div className='fw-bold text-white'>
                                             Follow :
-                                        </div>{' '}:
+                                        </div>{' '} */}
                                         <a target="_blank" href="https://www.facebook.com/agpropertyfacility/" className="icon-link" title="Facebook">
-                                            <Icon icon="la:facebook-square" color="white" width="34" height="34" />
+                                            <Icon icon="logos:facebook" width="24" height="24" />
                                         </a>
                                         <a href="https://twitter.com/AG_propfac" target='_blank' className="icon-link" title="Twitter">
-                                            <Icon icon="ri:twitter-x-line" color="white" width="28" height="28" />
+                                            <Icon icon="ri:twitter-x-fill" color="black" width="24" height="24" />
                                         </a>
                                         <a target='_blank' href="https://www.youtube.com/channel/UC_OJpayOZRdt6I4vkG-9uqA" className="icon-link" title="Youtube">
-                                            <Icon icon="ant-design:youtube-outlined" color="white" width="28" height="28" />
+                                            <Icon icon="logos:youtube-icon" color="#df2020" width="24" height="24" />
                                         </a>
                                         <a target='_blank' href="https://www.instagram.com/agpf_media/" className="icon-link" title="Instagram">
-                                            <Icon icon="mdi:instagram" color="white" width="28" height="28" />
+                                            <Icon icon="skill-icons:instagram" color="#df2020" width="24" height="24" />
                                         </a>
                                         <a target='_blank' href="https://www.linkedin.com/company/99914068/admin/feed/posts/" className="icon-link" title="Linkedin">
-                                            <Icon icon="basil:linkedin-outline" color="white" width="28" height="28" />
+                                            <Icon icon="skill-icons:linkedin" color="#df2020" width="24" height="24" />
                                         </a>
                                         <a href="https://in.pinterest.com/agpropertymanagement/" target='_blank' className="icon-link" title="Pinterest">
-                                            <Icon icon="tabler:brand-pinterest" color="white" width="28" height="28" />
+                                            <Icon icon="logos:pinterest" color="#df2020" width="24" height="24" />
                                         </a>
                                     </div>
                                 </div>

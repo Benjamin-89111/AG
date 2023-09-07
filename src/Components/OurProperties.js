@@ -8,11 +8,7 @@ import { Icon } from "@iconify/react";
 function OurProperties() {
 
     const [products, setProducts] = useState([
-        {
-            id: 1,
-            name: "Property Management",
-            description: "Property management services involve the professional oversight and administration of real estate properties to maximize value and ensure seamless operations."
-        },
+        
         {
             id: 2,
             name: "Warm Shell Spaces",

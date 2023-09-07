@@ -38,6 +38,7 @@ const PropertyList = () => {
                   <Col key={property.id} md={4}>
                     <Card className="bg-dark text-white m-1">
                       <Card.Body className="p-3">
+                        <h6>Type :<span style={{ fontSize: "15px" }} className="ms-2 fw-light">{property.type}</span></h6>
                         <h6>Location:<span style={{ fontSize: "15px" }} className="ms-2 fw-light">{property.location}</span></h6>
                         <h6>Land Area:<span style={{ fontSize: "15px" }} className="ms-2 fw-light">{property.landArea}</span></h6>
                         <h6>Status:<span style={{ fontSize: "15px" }} className="ms-2 fw-light">{property.status}</span></h6>

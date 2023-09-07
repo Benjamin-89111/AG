@@ -9,6 +9,11 @@ function OurServices() {
 
     const [products, setProducts] = useState([
         {
+            id: 7,
+            name: "Property Management",
+            description: "Property management services involve the professional oversight and administration of real estate properties to maximize value and ensure seamless operations."
+        },
+        {
             id: 1,
             name: "Commercial Cleaning",
             description: "Commercial cleaning services provide thorough and professional cleaning solutions for businesses to maintain a clean and hygienic environment.        "

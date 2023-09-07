@@ -59,21 +59,22 @@ const PropertyDetail = () => {
                       <td>{property.ageOfProperty}</td>
                     </tr>
                     <tr>
-                      <td className="fw-semibold">Ground Floor</td>
-                      <td>{property.groundFloor}</td>
+                      <td className="fw-semibold">Furnished</td>
+                      <td>{property.furnished}</td>
                     </tr>
                     <tr>
-                      <td className="fw-semibold">First Floor</td>
-                      <td>{property.firstFloor}</td>
+                      <td className="fw-semibold">Rent/Sale</td>
+                      <td className="">{property.rentOrSale}</td>
                     </tr>
                     <tr>
-                      <td className="fw-semibold">Second Floor</td>
-                      <td>{property.secondFloor}</td>
+                      <td className="fw-semibold">Rate</td>
+                      <td className="">{property.rate}</td>
                     </tr>
+
                   </tbody>
                 </table>
                 <Link to="/Enquire">
-                <h6 style={{color:"#ff8000"}} className="text-center mt-2 fw-bold">For More Details Contact Our Support</h6>
+                  <h6 style={{ color: "#ff8000" }} className="text-center mt-2 fw-bold">For More Details Contact Our Support</h6>
                 </Link>
               </Card.Body>
             </Card>
