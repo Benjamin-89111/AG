@@ -52,7 +52,7 @@ function About() {
                             <Col lg={6} className="p-3">
                                 <h3 style={{color:"#ff8000"}} className="fw-bold">Our Accreditations</h3>
                                 <p>
-                                    We hold memberships and accreditations with a wide range of industry-recognised organisations, including:
+                                    We hold memberships and accreditations with a wide range of industry-recognised organisations.
                                 </p>
                             </Col>
                         </Row>
