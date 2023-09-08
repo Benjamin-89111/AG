@@ -5,7 +5,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 // Import Bootstrap CSS files and other necessary imports
 import logo from './FinalLogo.png'
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
