@@ -1,7 +1,12 @@
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+
 import logo from './FinalLogo.png'
 import { Icon } from '@iconify/react'
-
+import X from './X-01.png'
+import Facebook from './FB-01.png'
+import Youtube from './Youtube-01.svg'
+import Pinterest from './Pintrest-01.svg'
+import Instagram from './Insta-01.svg'
+import Linkedin from './Lindin-01.png'
 function Footer() {
     return (
         <>
@@ -13,20 +18,20 @@ function Footer() {
                 >
                     {/* <!-- Grid container --> */}
                     <div className="container p-4 pb-0">
-                        {/* <!-- Section: Links --> */}
+                        {/* <!-- Section: as --> */}
                         <section className="">
                             {/* <!--Grid row--> */}
                             <div className="row">
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                                    <Link to="/" target="_blank">
+                                    <a href="/">
                                         <img src={logo} width="170px" className='mb-3' />
-                                    </Link>
-                                    <Link to="/about" target="_blank">
+                                    </a>
+                                    <a href="/about" target="_blank">
                                         <p className='text-white'>
                                             We are a medium-sized company providing Facilities Management and Building Services in Chennai. We put our people first, resulting in a hardworking and skilled team who are committed to getting the job done right...
                                         </p>
-                                    </Link>
+                                    </a>
                                 </div>
                                 {/* <!-- Grid column --> */}
 
@@ -34,43 +39,43 @@ function Footer() {
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                                    <h5 style={{color:"#fff"}} className="text-uppercase mb-4 fw-bold">SERVICES</h5>
+                                    <h5 style={{ color: "#fff" }} className="text-uppercase mb-4 fw-bold">SERVICES</h5>
 
-                                    <Link to="/Property-Management" target="_blank">
+                                    <a href="/Property-Management" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Property Management</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Commercial-Cleaning" target="_blank">
+                                    </a>
+                                    <a href="/Commercial-Cleaning" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Commercial Cleaning</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Building-Maintainence" target="_blank">
+                                    </a>
+                                    <a href="/Building-Maintainence" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Building Maintainence</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Man-Power" target="_blank">
+                                    </a>
+                                    <a href="/Man-Power" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Man-Power</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Facility-Management" target="_blank">
+                                    </a>
+                                    <a href="/Facility-Management" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Facility Management</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Maintainence" target="_blank">
+                                    </a>
+                                    <a href="/Maintainence" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Maintainence</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Cleaning" target="_blank">
+                                    </a>
+                                    <a href="/Cleaning" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Cleaning</a>
                                         </p>
-                                    </Link>
+                                    </a>
                                 </div>
                                 {/* <!-- Grid column --> */}
 
@@ -78,34 +83,34 @@ function Footer() {
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                                    <h5 style={{color:"#fff"}} className="text-uppercase mb-4 fw-bold">
+                                    <h5 style={{ color: "#fff" }} className="text-uppercase mb-4 fw-bold">
                                         Properties
                                     </h5>
-                                    <Link to="/Residential-Spaces" target="_blank">
+                                    <a href="/Residential-Spaces" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Residential Spaces</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Warm-Shell-Spaces" target="_blank">
+                                    </a>
+                                    <a href="/Warm-Shell-Spaces" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Warm Shell Spaces</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Office-Spaces" target="_blank">
+                                    </a>
+                                    <a href="/Office-Spaces" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Office Spaces</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Large-Office-Spaces" target="_blank">
+                                    </a>
+                                    <a href="/Large-Office-Spaces" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Large Office Spaces</a>
                                         </p>
-                                    </Link>
-                                    <Link to="/Event-Spaces" target="_blank">
+                                    </a>
+                                    <a href="/Event-Spaces" target="_blank">
                                         <p>
                                             <a className="text-white ag-head">Event Spaces</a>
                                         </p>
-                                    </Link>
+                                    </a>
                                 </div>
 
                                 {/* <!-- Grid column --> */}
@@ -113,7 +118,7 @@ function Footer() {
 
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-4 text-white col-lg-3 col-xl-3 mx-auto mt-3">
-                                    <h5 style={{color:"#fff"}} className="text-uppercase mb-4 fw-bold">Contact Us</h5>
+                                    <h5 style={{ color: "#fff" }} className="text-uppercase mb-4 fw-bold">Contact Us</h5>
                                     {/* <p><span>Location </span> {' '}: <i className="fas fa-home mr-3"></i>India , Singapore , Malaysia</p> */}
                                     <p className='mb-0'><Icon className='me-1' icon="mingcute:mail-fill" color="#ff8000" width="24" height="24" />Email Us :</p>
                                     <p className='mt-2'>info@agpropertyfacility.com</p>
@@ -124,7 +129,7 @@ function Footer() {
                             </div>
                             {/* <!--Grid row--> */}
                         </section>
-                        {/* <!-- Section: Links --> */}
+                        {/* <!-- Section: as --> */}
 
                         <hr className="my-2 text-white" />
 
@@ -144,26 +149,24 @@ function Footer() {
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                                     <div className="social-icons">
-                                        {/* <div className='fw-bold text-white'>
-                                            Follow :
-                                        </div>{' '} */}
+
                                         <a target="_blank" href="https://www.facebook.com/agpropertyfacility/" className="icon-link" title="Facebook">
-                                            <Icon icon="logos:facebook" width="24" height="24" />
+                                            <img src={Facebook} width={28} />
                                         </a>
                                         <a href="https://twitter.com/AG_propfac" target='_blank' className="icon-link" title="Twitter">
-                                            <Icon icon="ri:twitter-x-fill" color="black" width="24" height="24" />
+                                            <img src={X} width={30} />
                                         </a>
                                         <a target='_blank' href="https://www.youtube.com/channel/UC_OJpayOZRdt6I4vkG-9uqA" className="icon-link" title="Youtube">
-                                            <Icon icon="logos:youtube-icon" color="#df2020" width="24" height="24" />
+                                            <img src={Youtube} width={30} />
                                         </a>
                                         <a target='_blank' href="https://www.instagram.com/agpf_media/" className="icon-link" title="Instagram">
-                                            <Icon icon="skill-icons:instagram" color="#df2020" width="24" height="24" />
+                                        <img src={Instagram} width={30} />
                                         </a>
-                                        <a target='_blank' href="https://www.linkedin.com/company/99914068/admin/feed/posts/" className="icon-link" title="Linkedin">
-                                            <Icon icon="skill-icons:linkedin" color="#df2020" width="24" height="24" />
+                                        <a target='_blank' href="https://www.linkedin.com/company/99914068/admin/feed/posts/" className="icon-link" title="aedin">
+                                            <img src={Linkedin} width={30} />
                                         </a>
                                         <a href="https://in.pinterest.com/agpropertymanagement/" target='_blank' className="icon-link" title="Pinterest">
-                                            <Icon icon="logos:pinterest" color="#df2020" width="24" height="24" />
+                                            <img src={Pinterest} width={30} />
                                         </a>
                                     </div>
                                 </div>

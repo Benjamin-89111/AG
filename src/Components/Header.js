@@ -12,9 +12,9 @@ const Header = () => {
     <Navbar className='service-bg' fixed='top' expand="lg">
       <div className="container">
         <Navbar.Brand className='me-lg-5'>
-          <Link to="/">
+          <a href="/">
             <img src={logo} width="170px" />
-          </Link>
+          </a>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,30 +22,30 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ms-lg-5  justify-content-lg-center">
             <Nav.Link className='fw-light menu-opt text-white  ' >
-              {/* <Link to="/">
+              {/* <a target="_blank " href="/">
                 <span className='text-white'>Home</span>
               </Link> */}
             </Nav.Link>
-            <Nav.Link className='fw-light menu-opt text-white'>
-              <Link to="/about">
+            <Nav.Link target="_blank " href='/about' className='fw-light menu-opt text-white'>
+              {/* <a target="_blank " href="/about"> */}
                 <span className='text-white ms-3 ag-head'>About</span>
-              </Link>
+              {/* </a> */}
             </Nav.Link>
             <NavDropdown className='fw-light  ms-3 properties text-white' title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/Property-Management" className='text-dark' >Property Management</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Commercial-Cleaning" className='text-dark' >Commercial Cleaning</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Building-Maintainence" className='text-dark' >Building Maintenance</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Facility-Management" className='text-dark' >Facility Management</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Maintainence" className='text-dark' >Maintenance</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/Cleaning" className='text-dark' >Cleaning</NavDropdown.Item>
+              <NavDropdown.Item target="_blank " href='/Property-Management' className='text-dark' >Property Management</NavDropdown.Item>
+              <NavDropdown.Item  target="_blank " href="/Commercial-Cleaning" className='text-dark' >Commercial Cleaning</NavDropdown.Item>
+              <NavDropdown.Item  target="_blank " href="/Building-Maintainence" className='text-dark' >Building Maintenance</NavDropdown.Item>
+              <NavDropdown.Item  target="_blank " href="/Facility-Management" className='text-dark' >Facility Management</NavDropdown.Item>
+              <NavDropdown.Item  target="_blank " href="/Maintainence" className='text-dark' >Maintenance</NavDropdown.Item>
+              <NavDropdown.Item  target="_blank " href="/Cleaning" className='text-dark' >Cleaning</NavDropdown.Item>
             </NavDropdown>
-            {/* <Nav.Link className='fw-light text-white' href="blog.html">Blog</Nav.Link> */}
+            {/* <Nav.Link className='fw-light text-white' target="_blank " href="blog.html">Blog</Nav.Link> */}
             <NavDropdown
               className='fw-light properties ms-3 text-white'
               title="Properties"
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item as={Link} to="/Residential-Spaces" className='text-dark'>
+              <NavDropdown.Item  target="_blank " href="/Residential-Spaces" className='text-dark'>
                 Residential
               </NavDropdown.Item>
               <NavDropdown
@@ -55,30 +55,30 @@ const Header = () => {
               >
                 {/* Add sub-menu items here */}
                
-                <NavDropdown.Item as={Link} to="/Warm-Shell-Spaces" className='text-dark'>
+                <NavDropdown.Item  target="_blank " href="/Warm-Shell-Spaces" className='text-dark'>
                   Warm Shell Spaces
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Office-Spaces" className='text-dark'>
+                <NavDropdown.Item  target="_blank " href="/Office-Spaces" className='text-dark'>
                   Office Spaces
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Large-Office-Spaces" className='text-dark'>
+                <NavDropdown.Item  target="_blank " href="/Large-Office-Spaces" className='text-dark'>
                   Large Office Spaces
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Event-Spaces" className='text-dark'>
+                <NavDropdown.Item  target="_blank " href="/Event-Spaces" className='text-dark'>
                   Event Spaces
                 </NavDropdown.Item>
               </NavDropdown>
 
             </NavDropdown>
 
-            <Nav.Link className='fw-light menu-opt text-white'>
-              <Link to="/Man-Power">
+            <Nav.Link target="_blank " href="/Man-Power" className='fw-light menu-opt text-white'>
+              {/* <a > */}
                 <span className='text-white ag-head ms-3 '>Man Power</span>
-              </Link>
+              {/* </a> */}
             </Nav.Link>
           </Nav>
 
-          <Button as={Link} to="/Enquire" size='md' style={{ background: "#ff8000" }}  className="border-0 enq fw-light mb-3 mb-lg-0">
+          <Button  target="_blank " href="/Enquire" size='md' style={{ background: "#ff8000" }}  className="border-0 enq fw-light mb-3 mb-lg-0">
             Enquire Now
           </Button>
         </Navbar.Collapse>

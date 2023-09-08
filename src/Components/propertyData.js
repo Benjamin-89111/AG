@@ -36,7 +36,7 @@ const propertyData = [
         rentOrSale: "Sale",
         rate: "1.20 Cr (Negotiable)"
     },
-    
+
     {
         id: 3,
         type: "Individual Bungalow",
@@ -53,7 +53,7 @@ const propertyData = [
         furnished: "Semi-Furnished",
         status: <span className="badge fw-light bg-success">Available</span>,
         rentOrSale: "Rent / Sale",
-        rate: " 30K Per Month / 6 Cr (Negotiable)"
+        rate: " 1.5 L Per Month / 6 Cr (Negotiable)"
 
     },
     {
