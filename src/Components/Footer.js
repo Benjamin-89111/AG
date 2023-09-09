@@ -168,7 +168,7 @@ function Footer() {
                                         <a target='_blank' href="https://www.linkedin.com/company/99914068/admin/feed/posts/" className="icon-link" title="Linkedin">
                                             <img src={Linkedin} width={30} />
                                         </a>
-                                        <a to="https://in.pinterest.com/agpropertymanagement/" target='_blank' className="icon-link" title="Pinterest">
+                                        <a href="https://in.pinterest.com/agpropertymanagement/" target='_blank' className="icon-link" title="Pinterest">
                                             <img src={Pinterest} width={30} />
                                         </a>
                                     </div>

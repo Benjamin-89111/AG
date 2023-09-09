@@ -1,6 +1,14 @@
 import { Button, Col, Container, Row } from "react-bootstrap"
 import wideservice from './WideService.jpg'
 import { Icon } from '@iconify/react';
+import { Icon } from '@iconify/react'
+import X from './X-01.png'
+import Facebook from './FB-01.png'
+import Youtube from './Youtube-01.svg'
+import Pinterest from './Pintrest-01.svg'
+import Instagram from './Insta-01.svg'
+import Linkedin from './Lindin-01.png'
+import { Link } from 'react-router-dom'
 
 function WideCoverage() {
     return (
