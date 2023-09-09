@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/uz7q7vvwdvee/public_html/www.agpropertyfacility.com
+    - /bin/cp -R * $DEPLOYPATH
