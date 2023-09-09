@@ -156,7 +156,7 @@ function Footer() {
                                         <a target="_blank" href="https://www.facebook.com/agpropertyfacility/" className="icon-link" title="Facebook">
                                             <img src={Facebook} width={28} />
                                         </a>
-                                        <a to="https://twitter.com/AG_propfac" target='_blank' className="icon-link" title="Twitter">
+                                        <a href="https://twitter.com/AG_propfac" target='_blank' className="icon-link" title="Twitter">
                                             <img src={X} width={30} />
                                         </a>
                                         <a target='_blank' href="https://www.youtube.com/channel/UC_OJpayOZRdt6I4vkG-9uqA" className="icon-link" title="Youtube">
