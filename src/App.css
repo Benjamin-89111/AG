@@ -152,8 +152,8 @@ a {
 }
 
 .section-2 {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
-  ;
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+
 }
 
 .section-1 {
@@ -161,7 +161,7 @@ a {
 }
 
 .section-3 {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
 }
 
 .navbar-toggler {
@@ -229,4 +229,5 @@ a {
   color: green !important;
   transition: all .5s;
 }
+
 /*  */

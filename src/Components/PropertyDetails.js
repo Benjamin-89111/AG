@@ -17,10 +17,10 @@ const PropertyDetail = () => {
   return (
     <div>
       <Row>
-        <Col lg={12}>
+        <Col lg={12} className="mb-5">
           <Header />
         </Col>
-        <Col lg={12} className="section-2">
+        <Col lg={12} className="mt-4 section-2">
           <Container>
             <Card className="p-4 m-3">
               <Card.Body className="text-justify">
@@ -74,7 +74,7 @@ const PropertyDetail = () => {
                   </tbody>
                 </table>
                 <Link to="/Enquire">
-                  <h6 style={{ color: "#ff8000" }} className="text-center ctc mt-2 fw-bold">For More Details Contact Our Support</h6>
+                  <h6 style={{ color: "#fff" }} className="text-center ctc mt-2 fw-bold">For More Details Contact Our Support</h6>
                 </Link>
               </Card.Body>
             </Card>

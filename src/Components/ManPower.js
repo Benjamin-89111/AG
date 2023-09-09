@@ -18,13 +18,13 @@ function ManPower() {
                                 <img src="https://imgs.search.brave.com/aogXzIXu8McAuRwiDGOqPWOItSzjBwm0uoV_nXpDAgI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdC5k/ZXBvc2l0cGhvdG9z/LmNvbS8yNjI3MDIx/LzQ3MzgvaS82MDAv/ZGVwb3NpdHBob3Rv/c180NzM4MzI2My1z/dG9jay1waG90by1t/YWxlLWpvYi1zZWFy/Y2guanBn" width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#ff8000"}}>Introduction :</h2>
+                                <h2 style={{color:"#fff"}}>Introduction :</h2>
                                 <p>
                                     AG Property & Facility is a distinguished provider of reliable and skilled man-power services designed to meet the diverse staffing needs of businesses across industries. With a focus on efficiency, flexibility, and excellence, AG Property & Facility has established itself as a go-to partner for companies seeking qualified and motivated personnel to enhance their project teams.
                                 </p>
                             </Col>
                             <Col lg={12}>
-                                <h2 style={{color:"#ff8000"}} className="text-center">Key Features:</h2>
+                                <h2 style={{color:"#fff"}} className="text-center">Key Features:</h2>
                                 <ol>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Vetted and Trained:</strong> AG Property & Facility's man-power team comprises vetted professionals who undergo comprehensive training, ensuring their competence and readiness for various roles.</li>
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Adaptable Solutions:</strong> The company understands that staffing needs can change. They offer flexible staffing solutions that can be adjusted based on project demands.</li>
@@ -39,7 +39,7 @@ function ManPower() {
                                 <img src="https://imgs.search.brave.com/rNzZ30MxCRVlpbACjEYp-5_GjcmOy6uqEBeYoamJQgc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi93b3Jr/ZXJzLTY3MjQ4My5q/cGc" className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#ff8000"}} className="text-start">Conclusion</h2>
+                                <h2 style={{color:"#fff"}} className="text-start">Conclusion</h2>
                                 <p>
                                     AG Property & Facility's man-power services stand as a testament to their commitment to providing reliable and skilled personnel to meet a wide range of staffing needs. With a focus on professionalism, adaptability, and client satisfaction, they empower businesses by enhancing their project teams with competent and motivated individuals. AG Property & Facility serves as a strategic partner for businesses seeking to achieve their goals efficiently and effectively.
                                 </p>

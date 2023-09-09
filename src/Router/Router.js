@@ -56,22 +56,22 @@ function Router() {
                     <Route path="/Property-Management">
                         <PropertyManagement />
                     </Route>
-                    <Route path="/Warm-Shell-Spaces">
+                    <Route path="/Warm-Shell">
                         <WarmShellSpaces />
                     </Route>
-                    <Route path="/Office-Spaces">
+                    <Route path="/Office">
                         <OfficeSpaces />
                     </Route>
-                    <Route path="/Large-Office-Spaces">
+                    <Route path="/Large-Office">
                         <LargeOfficeSpaces />
                     </Route>
-                    <Route path="/Event-Spaces">
+                    <Route path="/Event">
                         <EventSpaces />
                     </Route>
                     <Route path="/Enquire">
                         <EnquireNow />
                     </Route>
-                    <Route path="/Residential-Spaces">
+                    <Route path="/Residential">
                         <ResidentialSpaces />
                     </Route>
                     <Route path="/property/:id" component={PropertyDetails} />

@@ -18,13 +18,13 @@ function PropertyManagement() {
                                 <img src="https://imgs.search.brave.com/L2bxcUGg5gJQqmRIeqNlB0yDGhwI4BijYv35OLkVTgk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQw/OTI5ODk1My9waG90/by9yZWFsLWVzdGF0/ZS1hZ2VudHMtc2hh/a2UtaGFuZHMtYWZ0/ZXItdGhlLXNpZ25p/bmctb2YtdGhlLWNv/bnRyYWN0LWFncmVl/bWVudC1pcy1jb21w/bGV0ZS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9U0Z5YmJw/R01CMHdJb0kwdEpv/dEZxcHR6QVlLX21J/Q1ZJVE5kUUlYcW55/Yz0" width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#ff8000"}}>Introduction :</h2>
+                                <h2 style={{color:"#fff"}}>Introduction :</h2>
                                 <p className="text-white">
                                     AG Property & Facility stands as a reputable name in the realm of property management, offering a comprehensive suite of services designed to streamline property ownership, enhance value, and provide hassle-free solutions for property owners. With a commitment to professionalism, innovation, and client satisfaction, AG Property & Facility has emerged as a trusted partner for those seeking efficient property management.
                                 </p>
                             </Col>
                             <Col lg={12}>
-                                <h2 style={{color:"#ff8000"}} className="text-center">Key Features:</h2>
+                                <h2 style={{color:"#fff"}} className="text-center">Key Features:</h2>
 
                                 <ol className="text-white">
                                     <li style={{ fontSize: "18px", marginBottom: "1rem" }}><strong>Expert Property Managers:</strong> AG Property & Facility's property managers are experienced professionals who possess in-depth knowledge of real estate management and local regulations.</li>
@@ -40,7 +40,7 @@ function PropertyManagement() {
                                 <img src="https://imgs.search.brave.com/Ol9YmkpQcqLPMWEMQ8GmXdVAcn_S2gsAbM-TNo3UvVM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM4/OTQwNDg0MC9waG90/by9hc2lhbi1idXNp/bmVzc21hbi1tYWtp/bmctYS1yZWFsLWVz/dGF0ZS1jb250cmFj/dC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bUFDSjY1bmlF/SHNRdUNSOVZmX3Nv/MVdiQmhSaWNQWlhx/ZUU3NG91bzdnRT0" className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#ff8000"}} className="text-start">Conclusion</h2>
+                                <h2 style={{color:"#fff"}} className="text-start">Conclusion</h2>
                                 <p className="text-white">
                                     AG Property & Facility's property management services are a testament to their dedication to efficient, organized, and value-enhancing property ownership. With a focus on expertise, customization, and effective communication, they simplify property management for owners while providing tenants with quality living experiences. AG Property & Facility serves as a strategic partner, contributing to the success of property investments and ensuring peace of mind for property owners.
                                 </p>

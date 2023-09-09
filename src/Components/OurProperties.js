@@ -48,16 +48,16 @@ function OurProperties() {
     return (
         <>
             <Row cla>
-                <Col lg={12} className="p-3">
+                <Col lg={12} className="p-5">
                     <Container>
                         <Row>
-                            <h2 style={{ color: "#ff8000" }} className="text-center text-uppercase fw-bold  mb-1">Our Properties</h2>
+                            <h2 style={{ color: "#fff" }} className="text-center text-uppercase fw-bold  mb-1">Our Properties</h2>
                             <h4 className="text-center text-white mb-3">We Cover Everything</h4>
                             {currentProducts.map((product) => (
                                 <Col md={4} lg={3} key={product.id}>
                                     <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
                                         <div className="card-body p-3">
-                                            <h3 style={{ color: "#ff8000", fontSize: "20px" }} className="text-center fw-semibold mb-3">{product.name}</h3>
+                                            <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold mb-3">{product.name}</h3>
                                             <p style={{ fontWeight: "lighter" }} className="text-center text-white">{product.description}</p>
                                         </div>
                                     </Card>

@@ -26,23 +26,23 @@ function Home() {
                     <ComprehensiveManagements />
                    
                 </Col>
-                <Col lg={12} className="pg-1 text-white section-1">
+                <Col lg={12} className="pg-1 text-white section-2">
                     <OurServices />
-                    <hr className="text-white"></hr>
+                    
                 </Col>
                 <Col lg={12} className="section-1">
                     <WideCoverage />
-                    <hr className="text-white"></hr>
+                    
                 </Col>
-                <Col lg={12} className="section-1">
+                <Col lg={12} className="section-2">
                     <OurProperties />
-                    <hr className="text-white"></hr>
+                    
                 </Col>
                 <Col lg={12} className="section-1">
                     <OurValueBeliefs />
-                    <hr className="text-white"></hr>
+                    
                 </Col>
-                <Col lg={12} className="section-1">
+                <Col lg={12} className="section-2">
                     <WhyChooseus />
                   
                 </Col>
