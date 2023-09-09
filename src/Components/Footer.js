@@ -153,24 +153,24 @@ function Footer() {
                                 <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                                     <div className="social-icons">
 
-                                        <Link target="_blank" href="https://www.facebook.com/agpropertyfacility/" className="icon-link" title="Facebook">
+                                        <a target="_blank" href="https://www.facebook.com/agpropertyfacility/" className="icon-link" title="Facebook">
                                             <img src={Facebook} width={28} />
-                                        </Link>
-                                        <Link to="https://twitter.com/AG_propfac" target='_blank' className="icon-link" title="Twitter">
+                                        </a>
+                                        <a to="https://twitter.com/AG_propfac" target='_blank' className="icon-link" title="Twitter">
                                             <img src={X} width={30} />
-                                        </Link>
-                                        <Link target='_blank' href="https://www.youtube.com/channel/UC_OJpayOZRdt6I4vkG-9uqA" className="icon-link" title="Youtube">
+                                        </a>
+                                        <a target='_blank' href="https://www.youtube.com/channel/UC_OJpayOZRdt6I4vkG-9uqA" className="icon-link" title="Youtube">
                                             <img src={Youtube} width={30} />
-                                        </Link>
-                                        <Link target='_blank' href="https://www.instagram.com/agpf_media/" className="icon-link" title="Instagram">
+                                        </a>
+                                        <a target='_blank' href="https://www.instagram.com/agpf_media/" className="icon-link" title="Instagram">
                                             <img src={Instagram} width={30} />
-                                        </Link>
-                                        <Link target='_blank' href="https://www.linkedin.com/company/99914068/admin/feed/posts/" className="icon-link" title="Linkedin">
+                                        </a>
+                                        <a target='_blank' href="https://www.linkedin.com/company/99914068/admin/feed/posts/" className="icon-link" title="Linkedin">
                                             <img src={Linkedin} width={30} />
-                                        </Link>
-                                        <Link to="https://in.pinterest.com/agpropertymanagement/" target='_blank' className="icon-link" title="Pinterest">
+                                        </a>
+                                        <a to="https://in.pinterest.com/agpropertymanagement/" target='_blank' className="icon-link" title="Pinterest">
                                             <img src={Pinterest} width={30} />
-                                        </Link>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
