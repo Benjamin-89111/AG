@@ -27,10 +27,10 @@ function Footer() {
                             <div className="row">
                                 {/* <!-- Grid column --> */}
                                 <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                                    <Link to="/">
+                                    <Link target="_parent"  to="/">
                                         <img src={logo} width="170px" className='mb-3' />
                                     </Link>
-                                    <Link to="/about" >
+                                    <Link target="_parent"  to="/about" >
                                         <p className='text-white'>
                                             We are a medium-sized company providing Facilities Management and Building Services in Chennai. We put our people first, resulting in a hardworking and skilled team who are committed to getting the job done right...
                                         </p>
@@ -44,37 +44,28 @@ function Footer() {
                                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                                     <h5 style={{ color: "#fff" }} className="text-uppercase mb-4 fw-bold">SERVICES</h5>
 
-                                    <Link to="/Property-Management" >
+                                    <Link target="_parent"  to="/Property-Management" >
                                         <p>
                                             <a className="text-white ag-head">Property Management</a>
                                         </p>
                                     </Link>
-                                    <Link to="/Commercial-Cleaning" >
-                                        <p>
-                                            <a className="text-white ag-head">Commercial Cleaning</a>
-                                        </p>
-                                    </Link>
-                                    <Link to="/Building-Maintainence" >
-                                        <p>
-                                            <a className="text-white ag-head">Building Maintainence</a>
-                                        </p>
-                                    </Link>
-                                    <Link to="/Man-Power" >
+                                    
+                                    <Link target="_parent" to="/Man-Power" >
                                         <p>
                                             <a className="text-white ag-head">Man-Power</a>
                                         </p>
                                     </Link>
-                                    <Link to="/Facility-Management" >
+                                    <Link target="_parent"  to="/Facility-Management" >
                                         <p>
                                             <a className="text-white ag-head">Facility Management</a>
                                         </p>
                                     </Link>
-                                    <Link to="/Maintainence" >
+                                    <Link target="_parent"  to="/Maintainence" >
                                         <p>
                                             <a className="text-white ag-head">Maintainence</a>
                                         </p>
                                     </Link>
-                                    <Link to="/Cleaning" >
+                                    <Link target="_parent"  to="/Cleaning" >
                                         <p>
                                             <a className="text-white ag-head">Cleaning</a>
                                         </p>
@@ -89,12 +80,12 @@ function Footer() {
                                     <h5 style={{ color: "#fff" }} className="text-uppercase mb-4 fw-bold">
                                         Properties
                                     </h5>
-                                    <Link to="/Residential" >
+                                    <Link target="_parent"  to="/Residential" >
                                         <p>
                                             <a className="text-white ag-head">Residential </a>
                                         </p>
                                     </Link>
-                                    <Link to="/Commercial" >
+                                    <Link target="_parent"  to="/Commercial" >
                                         <p>
                                             <a className="text-white ag-head">Commercial</a>
                                         </p>

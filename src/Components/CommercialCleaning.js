@@ -15,10 +15,10 @@ function CommercialCleaning() {
                     <Container>
                         <Row className="">
                             <h1  className="text-center fw-bold mb-3">Commercial Cleaning</h1>
-                            <Col lg={6} className="p-4">
+                            <Col lg={6} className="p-5">
                                 <img src={cc} width="100%" />
                             </Col>
-                            <Col lg={6} className="p-4">
+                            <Col lg={6} className="p-5">
                                 
                                 <p>
                                     AG Property & Facility is a leading commercial cleaning services company dedicated to providing
@@ -41,7 +41,7 @@ function CommercialCleaning() {
                             <Col lg={6} className="p-4 order-lg-2">
                                 <img src={cc1} className="w-100" />
                             </Col>
-                            <Col lg={6} className="p-4">
+                            <Col lg={6} className="p-5">
                                 <h2 style={{color:"#fff"}} className="">Conclusion</h2>
                                 <p>AG Property & Facility stands out as a premier commercial cleaning services provider, dedicated to elevating the cleanliness and hygiene standards of businesses. With their professional approach, comprehensive range of services, and commitment to customer satisfaction, they have become a trusted partner for companies seeking reliable and top-quality cleaning solutions.</p>
                             </Col>

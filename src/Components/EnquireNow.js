@@ -104,7 +104,7 @@ const EnquireNow = () => {
                                     <Card className='home_heroform' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', border: 'none' }}>
                                         <Card.Body>
                                             <Card.Title className='text-white' as="h3">Let’s Connect with us</Card.Title>
-                                            <Card.Text className='text-white'>Let’s Connect ,  <span style={{ color: "#ff8000", fontWeight: "bold", fontSize: "24px" }}>7845800982</span> </Card.Text>
+                                            <Card.Text className='text-white'>Let’s Connect :  <span style={{ color: "#ff8000", fontWeight: "bold", fontSize: "24px" }}>7845800982</span> </Card.Text>
                                             <Form ref={form} onSubmit={sendEmail}>
                                                 <Form.Group className='mb-3' controlId="name">
                                                     <Form.Label className='text-white'>Name</Form.Label>

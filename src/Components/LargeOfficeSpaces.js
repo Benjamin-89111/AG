@@ -14,10 +14,10 @@ function LargeOfficeSpaces() {
                     <Container>
                         <Row>
                             <h1 className="text-center fw-bold mb-3">Large Office Spaces</h1>
-                            <Col lg={6} className="p-4">
+                            <Col lg={6} className="p-5">
                                 <img src="https://imgs.search.brave.com/LS97BpF1tMklfiIVFbPP890EEWedjWMyZPAS_BnpK_Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LndvcmtzcGFj/ZS5jby51ay90cmFu/c2Zvcm0vNzE4Njhm/ZDItMzg0ZC00YmJm/LTgxMDktOWNkMmFm/NWFiMDYyL29mZmlj/ZS1zcGFjZS10by1y/ZW50LWF0LXNhbGlz/YnVyeS1ob3VzZS1z/YWxpc2J1cnktaG91/c2UtbG9uZG9uLXdh/bGwtbG9uZG9uLXVu/aXQtZmMtNDY0LTQ3/My0yNTU0LXNxLWZ0/LTIzNy1zcS1tP2lv/PXRyYW5zZm9ybTpm/aWxsLHdpZHRoOjU5/NyxoZWlnaHQ6Mzk0/JmZvcm1hdD13ZWJw/JnF1YWxpdHk9NjA" width="100%" />
                             </Col>
-                            <Col lg={6} className="p-4">
+                            <Col lg={6} className="p-5">
                                 
                                 <p>
                                     AG Property & Facility takes pride in offering expansive and well-designed large office spaces that cater to the needs of businesses seeking ample room for growth, collaboration, and innovation. With a focus on functionality, flexibility, and aesthetics, AG Property & Facility provides large office spaces that serve as the canvas for businesses to achieve their grand visions.
@@ -38,7 +38,7 @@ function LargeOfficeSpaces() {
                             <Col lg={6} className="p-4 order-lg-2">
                                 <img src="https://imgs.search.brave.com/Cnqz6NYLzq61TPVG_fmxw3NmM529wOFua5y6YRe9A3o/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LndvcmtzcGFj/ZS5jby51ay90cmFu/c2Zvcm0vZDk4N2Jh/YWQtZTMyZC00MTE5/LTljODEtNDgzYjA0/MDYwNGZlL29mZmlj/ZS1zcGFjZS10by1y/ZW50LWF0LWNvcmlu/dGhpYW4taG91c2Ut/bGFuZHNkb3duZS1y/b2FkLWxvbmRvbi11/bml0LWNvLTctNC02/MjMtc3EtZnQtNDI5/LXNxLW0_aW89dHJh/bnNmb3JtOmZpbGws/d2lkdGg6NTk3LGhl/aWdodDozOTQmZm9y/bWF0PXdlYnAmcXVh/bGl0eT02MA" className="w-100" />
                             </Col>
-                            <Col lg={6} className="p-4">
+                            <Col lg={6} className="p-5">
                                 
                                 <p>
                                     AG Property & Facility's large office spaces stand as a testament to their commitment to providing businesses with the physical foundation needed to achieve their aspirations. With an emphasis on adaptability, functionality, and convenience, these spaces offer the canvas on which businesses can paint their success stories. AG Property & Facility's large office spaces aren't just spaces; they are the launchpads for growth, creativity, and elevated achievements.
