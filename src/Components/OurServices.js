@@ -17,7 +17,7 @@ function OurServices() {
                         <h3 style={{ color: "#fff" }} className="text-center text-uppercase fw-bold">Our Services</h3>
                         <h4 className="text-center text-white mb-3">Your All in One Source</h4>
                         <Col md={4} lg={3} >
-                            <Link to="/Property-Management">
+                            <Link target="_parent" to="/Property-Management">
                                 <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
                                     <Card.Header>
                                         <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold ">Property Management</h3>
@@ -32,7 +32,7 @@ function OurServices() {
                             </Link>
                         </Col>
                         <Col md={4} lg={3} >
-                            <Link to="/Facility-Management">
+                            <Link target="_parent" to="/Facility-Management">
                                 <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
                                     <Card.Header>
                                         <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold ">
@@ -48,7 +48,7 @@ function OurServices() {
                             </Link>
                         </Col>
                         <Col md={4} lg={3} >
-                            <Link to="/Maintainence">
+                            <Link target="_parent" to="/Maintainence">
                                 <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
                                     <Card.Header>
                                         <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold">
@@ -64,7 +64,7 @@ function OurServices() {
                             </Link>
                         </Col>
                         <Col md={4} lg={3} >
-                            <Link to="/Cleaning">
+                            <Link target="_parent" to="/Cleaning">
                                 <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
                                     <Card.Header>
                                         <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold">Cleaning</h3>

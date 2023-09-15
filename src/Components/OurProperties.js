@@ -19,7 +19,7 @@ function OurProperties() {
                             <h4 className="text-center text-white mb-3">We've got it all</h4>
                             {/* {currentProducts.map((product) => ( */}
                             <Col md={4} lg={3}>
-                                <Link to="/Residential">
+                                <Link target="_parent" to="/Residential">
                                     <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
                                         <Card.Header>
                                             <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold">Residential</h3>
@@ -33,7 +33,7 @@ function OurProperties() {
                                 </Link>
                             </Col>
                             <Col md={4} lg={3} >
-                                <Link to="/Commercial">
+                                <Link target="_parent" to="/Commercial">
                                     <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
                                         <Card.Header>
                                             <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold ">Commercial</h3>
