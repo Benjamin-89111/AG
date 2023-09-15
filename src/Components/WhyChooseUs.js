@@ -26,7 +26,7 @@ function WideCoverage() {
                         </Col>
                         <Col lg={6} className="text-white">
                             <p className="ms-3 mt-3" >
-                                AG Property & Facilities Management understands the difficulties of maintaining a building operational. We take pride in having the expertise, knowledge, and commitment to provide you with the services you demand.
+                                AG Property & Facility  Management understands the difficulties of maintaining a building operational. We take pride in having the expertise, knowledge, and commitment to provide you with the services you demand.
                             </p>
                             <ul className="" type="none">
                                 <li><Icon icon="mdi:tick" color="#5FBE4C" className="me-2" width="28" height="28" />When you choose us, AG Property & Facilities Management, you are choosing reliability and peace of mind.</li>

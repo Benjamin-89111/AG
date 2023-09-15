@@ -81,9 +81,9 @@ const VideoBanner = () => {
         <Row>
           <Col lg={7} md={12}>
             <div className='p-2 mt-lg-5' style={textStyles}>
-              <h2 style={h1Styles}>AG Property and Facility Management. </h2>
+              <h1 style={h1Styles}>AG Property and Facility Management. </h1>
               <p style={pStyles}>
-                Welcome to AG Property and Facility Management. Our mission is to make a positive impact on the world. Trust us for tailor-made solutions for Cleaning, Security, and Maintenance.
+                Welcome to AG Property and Facility Management. Our mission is to make a positive impact on the world. Trust us for tailor-made solutions for Maintenance, Cleaning and Security.
               </p>
             </div>
           </Col>
@@ -91,7 +91,7 @@ const VideoBanner = () => {
             <Card className='home_heroform' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', border: 'none' }}>
               <Card.Body>
                 <Card.Title className='text-white' as="h3">Get a Quote</Card.Title>
-                <Card.Text className='text-white'>Get in touch, call us on <span style={{color:"#ff8000",fontWeight:"bold",fontSize:"24px"}}>7845800982</span> </Card.Text>
+                <Card.Text className='text-white'>Let’s Connect , call us on <span style={{color:"#ff8000",fontWeight:"bold",fontSize:"24px"}}>7845800982</span> </Card.Text>
                 <Form ref={form} onSubmit={sendEmail}>
                   <Form.Group className='mb-3' controlId="name">
                     <Form.Label className='text-white'>Name</Form.Label>

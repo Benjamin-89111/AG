@@ -18,7 +18,7 @@ function OfficeSpaces() {
                                 <img src="https://imgs.search.brave.com/1yIvAdgcnubxdnOdm31CcHIFYgT1ID8GIFPiOUra8G8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG5j/Yy5wcm9wZXJ0eXNo/YXJrLmNvbS9pbWFn/ZXMvNDU3NDgxQUIt/RUMxQy00NTRELUJG/REMtMTFENzk0NTdF/QTZFLzQ5MzZfMi5q/cGc_d2lkdGg9NDUw" width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#fff"}}>Introduction :</h2>
+                                
                                 <p>
                                     AG Property & Facility takes pride in offering exceptional office spaces designed to provide a productive, inspiring, and comfortable work environment for businesses of all sizes. With a focus on innovation, functionality, and aesthetics, AG Property & Facility has established itself as a provider of thoughtfully crafted office spaces that cater to diverse business needs.
                                 </p>
@@ -40,7 +40,7 @@ function OfficeSpaces() {
                                 <img src="https://imgs.search.brave.com/SUoz_UvygVR9Qc6Q7tPAlICQzFGw7j0Ci6oZU1I8M0s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/b2ZmaWNlc3BhY2Vz/bnkuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzA1L05Z/Qy1TaG9ydC1UZXJt/LU9mZmljZS1TcGFj/ZS04MTh4NTQwLmpw/Zw" className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#fff"}} className="text-start">Conclusion</h2>
+                                
                                 <p>
                                     AG Property & Facility's office spaces stand as a testament to their commitment to offering top-quality work environments that nurture business growth and success. With an emphasis on adaptability, aesthetics, and convenience, they provide businesses with the space they need to thrive. AG Property & Facility's office spaces aren't just spaces; they are catalysts for innovation, collaboration, and excellence in the workplace.
                                 </p>

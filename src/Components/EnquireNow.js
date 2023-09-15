@@ -93,7 +93,7 @@ const EnquireNow = () => {
                             <Row>
                                 <Col lg={7} md={12}>
                                     <div className='p-2 mt-lg-5' style={textStyles}>
-                                        <h2 style={h1Styles}>Contact Us</h2>
+                                        <h1 style={h1Styles}>Contact Us</h1>
                                         <p style={pStyles}>
                                             Call us today for a quick consultation and to receive a free non obligation quote from our expert team on hand 24/7.
                                         </p>
@@ -103,8 +103,8 @@ const EnquireNow = () => {
                                 <Col lg={5} md={12}>
                                     <Card className='home_heroform' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', border: 'none' }}>
                                         <Card.Body>
-                                            <Card.Title className='text-white' as="h3">Get in Touch</Card.Title>
-                                            <Card.Text className='text-white'>Get in touch, call us on <span style={{ color: "#ff8000", fontWeight: "bold", fontSize: "24px" }}>7845800982</span> </Card.Text>
+                                            <Card.Title className='text-white' as="h3">Let’s Connect with us</Card.Title>
+                                            <Card.Text className='text-white'>Let’s Connect , call us on <span style={{ color: "#ff8000", fontWeight: "bold", fontSize: "24px" }}>7845800982</span> </Card.Text>
                                             <Form ref={form} onSubmit={sendEmail}>
                                                 <Form.Group className='mb-3' controlId="name">
                                                     <Form.Label className='text-white'>Name</Form.Label>

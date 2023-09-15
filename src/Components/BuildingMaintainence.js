@@ -18,7 +18,7 @@ function BuildingMaintainence() {
                                 <img src={bm1} width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#fff"}}>Introduction :</h2>
+                                
                                 <p>
                                     AG Property & Facility is a reputable name in the realm of building maintenance services, committed to providing comprehensive solutions that ensure the longevity, safety, and functionality of diverse properties. With a strong focus on expertise, reliability, and customer satisfaction, AG Property & Facility has emerged as a preferred partner for maintaining and enhancing the value of properties across various sectors.
                                 </p>
@@ -38,7 +38,7 @@ function BuildingMaintainence() {
                                 <img src={bm} className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#fff"}} className="text-start">Conclusion</h2>
+                                
                                 <p>
                                     AG Property & Facility stands as a trusted partner in the realm of building maintenance services, dedicated to ensuring the optimal performance, safety, and value of properties. Through their expertise, commitment to excellence, and customer-centric approach, they have established themselves as leaders in the industry, providing tailored solutions that meet the diverse needs of property owners and managers.
                                 </p>

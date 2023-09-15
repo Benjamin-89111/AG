@@ -4,83 +4,82 @@ import Header from './Header';
 // import img from '../Images/OurServices.jpg';
 // import Footer from "./Footer";
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 function OurServices() {
 
-    const [products, setProducts] = useState([
-        {
-            id: 7,
-            name: "Property Management",
-            description: "Property management services involve the professional oversight and administration of real estate properties to maximize value and ensure seamless operations."
-        },
-        {
-            id: 1,
-            name: "Commercial Cleaning",
-            description: "Commercial cleaning services provide thorough and professional cleaning solutions for businesses to maintain a clean and hygienic environment.        "
-        },
-        {
-            id: 2,
-            name: "Building Maintainence",
-            description: "Building maintenance services encompass a wide range of tasks and activities aimed at ensuring the proper upkeep, functionality, and longevity of structures and facilities."
-        },
-        {
-            id: 3,
-            name: "Facility Management",
-            description: "Facility management services encompass comprehensive oversight and optimization of physical spaces and resources to enhance functionality, safety, and user experience within a facility."
-        },
-        {
-            id: 4,
-            name: "Man-Power",
-            description: "Manpower services involve providing skilled and reliable personnel to fulfill various job roles and tasks across different industries and sectors."
-        },
-        {
-            id: 5,
-            name: "Maintainence",
-            description:"Maintenance services encompass a variety of activities aimed at preserving, repairing, and prolonging the lifespan of assets, equipment, and structures."
-        },
-        {
-            id: 6,
-            name: "Cleaning",
-            description:"Cleaning services involve thorough sanitation and tidying of spaces to create a hygienic and organized environment."
-        }
-    ]);
-
-    const productsPerPage = 8;
-    const [currentPage, setCurrentPage] = useState(1);
-
-    const indexOfLastProduct = currentPage * productsPerPage;
-    const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-    const currentProducts = products.slice(indexOfFirstProduct, indexOfLastProduct);
-
-    const totalPages = Math.ceil(products.length / productsPerPage);
-
-    const handlePaginationClick = (pageNumber) => {
-        setCurrentPage(pageNumber);
-    };
 
     return (
         <>
             <Row>
-                <Col lg={12} className="p-5">
-                    <Container>
-                        <Row>
-                            <h3 style={{color:"#fff"}} className="text-center text-uppercase fw-bold">Our Services</h3>
-                            <h4 className="text-center text-white mb-3">We Cover Everything</h4>
-                            {currentProducts.map((product) => (
-                                <Col md={4} lg={3} key={product.id}>
-                                    <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
-                                        <div className="card-body p-3">
-                                            <h3 style={{color:"#fff",fontSize:"20px"}} className="text-center fw-semibold mb-3">{product.name}</h3>
-                                            <p style={{fontWeight:"lighter"}} className="text-center text-white">{product.description}</p>
-                                        </div>
-                                    </Card>
-                                </Col>
-                            ))}
-                        </Row>
+                <Col lg={12} className="p-3">
+                    <Row>
+                        <h3 style={{ color: "#fff" }} className="text-center text-uppercase fw-bold">Our Services</h3>
+                        <h4 className="text-center text-white mb-3">Your All in One Source</h4>
+                        <Col md={4} lg={3} >
+                            <Link to="/Property-Management">
+                                <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
+                                    <Card.Header>
+                                        <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold ">Property Management</h3>
 
-                    </Container>
+                                    </Card.Header>
+                                    <div className="card-body p-3">
+                                        <p style={{ fontWeight: "lighter" }} className="text-center three-lines text-white">
+                                            Property management services involve the professional oversight and administration of real estate properties to maximize value and ensure seamless operations.
+                                        </p>
+                                    </div>
+                                </Card>
+                            </Link>
+                        </Col>
+                        <Col md={4} lg={3} >
+                            <Link to="/Facility-Management">
+                                <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
+                                    <Card.Header>
+                                        <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold ">
+                                            Facility Management
+                                        </h3>
+                                    </Card.Header>
+                                    <div className="card-body p-3">
+                                        <p style={{ fontWeight: "lighter" }} className="text-center three-lines text-white">
+                                            Maintenance services cover a diverse set of tasks to maintain and extend the life of both commercial and residential structures. These activities involve preserving, repairing, and enhancing the functionality and longevity of assets, equipment, and facilities.
+                                        </p>
+                                    </div>
+                                </Card>
+                            </Link>
+                        </Col>
+                        <Col md={4} lg={3} >
+                            <Link to="/Maintainence">
+                                <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
+                                    <Card.Header>
+                                        <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold">
+                                            Maintainence
+                                        </h3>
+                                    </Card.Header>
+                                    <div className="card-body p-3">
+                                        <p style={{ fontWeight: "lighter" }} className="text-center three-lines text-white">
+                                            Maintenance services encompass a variety of activities aimed at preserving, repairing, and prolonging the lifespan of assets, equipment, and structures.
+                                        </p>
+                                    </div>
+                                </Card>
+                            </Link>
+                        </Col>
+                        <Col md={4} lg={3} >
+                            <Link to="/Cleaning">
+                                <Card style={{ borderRadius: '0px' }} className="services-1 m-2">
+                                    <Card.Header>
+                                        <h3 style={{ color: "#fff", fontSize: "20px" }} className="text-center fw-semibold">Cleaning</h3>
+                                    </Card.Header>
+                                    <div className="card-body p-3">
+                                        <p style={{ fontWeight: "lighter" }} className="text-center three-lines text-white">
+                                            Cleaning services require meticulous sanitization and organization of both commercial and residential spaces to provide a hygienic and harmonious atmosphere.
+                                        </p>
+                                    </div>
+                                </Card>
+                            </Link>
+                        </Col>
+                    </Row>
                 </Col>
-            </Row>
+            </Row >
         </>
     );
 }

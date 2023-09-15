@@ -175,10 +175,19 @@ a {
     padding: 15px !important;
     backdrop-filter: blur(20px) !important;
     color: #fff !important;
-    height: 400px !important;
+    height: auto !important;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .services-1 {
+    background: rgba(0, 0, 0, .5) !important;
+    margin: 0 20px !important;
+    padding: 15px !important;
+    backdrop-filter: blur(20px) !important;
+    color: #fff !important;
+    height: auto !important;
+  }
+}
 .services-1 {
   background: rgba(0, 0, 0, .5) !important;
   margin: 0 20px !important;
@@ -231,3 +240,16 @@ a {
 }
 
 /*  */
+
+.three-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.four-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

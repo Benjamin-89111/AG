@@ -18,7 +18,7 @@ function Cleaning() {
                                 <img src="https://imgs.search.brave.com/g2H5vL0AvOfPBCRp_MgzwbL341r_zj3YMaAQ0LR7eaU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTY4/NjE0OTA4L3Bob3Rv/L3N0ZWFtLWNsZWFu/aW5nLWNhcnBldHMu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PUY2cERyR3ludktX/SG1zWmxjQzZaemtl/OXJQVlhtV2d0VXJ1/MV9nNXdCLVk9" width="100%" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#fff"}}>Introduction :</h2>
+                                
                                 <p>
                                     AG Property & Facility takes pride in offering exceptional cleaning services that cater to the diverse needs of businesses and properties. With a commitment to cleanliness, hygiene, and customer satisfaction, AG Property & Facility has established itself as a reliable partner for maintaining pristine environments.
                                 </p>
@@ -40,7 +40,7 @@ function Cleaning() {
                                 <img src="https://imgs.search.brave.com/aoX_jLw7BMWOS4N8bkwVgaBT7d_U7bZrKA6c5RoQAuI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTA5/Mjc4MDI3L3Bob3Rv/L2NsZWFuaW5nLXRh/cC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9cDNSSTVGSlEy/MXhMOENkV2ViM1Rj/OU44NGlrR3d1TFVq/VVpIQ0JzUHVXRT0" className="w-100" />
                             </Col>
                             <Col lg={6} className="p-4">
-                                <h2 style={{color:"#fff"}} className="text-start">Conclusion</h2>
+                                
                                 <p>
                                     AG Property & Facility's cleaning services are a testament to their dedication to creating cleaner, healthier, and more appealing environments. With a focus on expertise, customization, and client-centricity, they have positioned themselves as a go-to partner for businesses and individuals seeking professional cleaning solutions. AG Property & Facility's services go beyond cleanliness; they contribute to a positive atmosphere and a better quality of life for all.
                                 </p>

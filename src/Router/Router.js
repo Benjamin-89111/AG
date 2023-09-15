@@ -18,6 +18,7 @@ import EventSpaces from "../Components/EventSpaces";
 import EnquireNow from "../Components/EnquireNow";
 import ResidentialSpaces from "../Components/ResidentialSpaces";
 import PropertyDetails from "../Components/PropertyDetails";
+import Commercial from "../Components/Commercial";
 function Router() {
     return (
         <>
@@ -35,12 +36,12 @@ function Router() {
                     <Route path="/product/:id">
                         <ProductDetail />
                     </Route> */}
-                    <Route path="/Commercial-Cleaning">
+                    {/* <Route path="/Commercial-Cleaning">
                         <CommercialCleaning />
-                    </Route>
-                    <Route path="/Building-Maintainence">
+                    </Route> */}
+                    {/* <Route path="/Building-Maintainence">
                         <BuildingMaintainence />
-                    </Route>
+                    </Route> */}
                     <Route path="/Man-Power">
                         <ManPower />
                     </Route>
@@ -73,6 +74,9 @@ function Router() {
                     </Route>
                     <Route path="/Residential">
                         <ResidentialSpaces />
+                    </Route>
+                    <Route path="/Commercial">
+                        <Commercial />
                     </Route>
                     <Route path="/property/:id" component={PropertyDetails} />
                 </Switch>

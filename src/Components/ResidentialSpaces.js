@@ -26,7 +26,7 @@ const PropertyList = () => {
           <Header />
         </Col>
         <div className="section-2 mt-4 text-white">
-          <h1 className="text-center fw-bold mt-3 mb-3">Property Listings</h1>
+          <h1 className="text-center fw-bold mt-3 mb-3">Residential</h1>
           <Container>
             <Row>
               {propertyData

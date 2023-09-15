@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap"
 function ComprehensiveManagements() {
     return (
         <>
-            <Container className="p-5">
+            <Container className="p-4">
                 <h3 style={{ color: "#fff" }} className="text-center fw-bold text-uppercase mt-3 mb-3">
                     Comprehensive Management Solutions Tailored To Suit Your Needs
                 </h3>
